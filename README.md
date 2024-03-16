@@ -1,6 +1,6 @@
 # Bit Ocean Infra
 
-🚀 Built reliable infrastructure for Bit Ocean.
+> 🚀 Built reliable infrastructure for Bit Ocean.
 
 ![npm](https://img.shields.io/npm/v/@bit-ocean/cspell?logo=npm&label=cspell)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/eslint-config?logo=eslint&label=eslint-config)

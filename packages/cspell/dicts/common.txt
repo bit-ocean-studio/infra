@@ -1,0 +1,5 @@
+antd
+astro
+clsx
+tauri
+tsbuildinfo

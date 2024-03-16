@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "language": "en",
+  "dictionaries": ["custom-words"],
+  "dictionaryDefinitions": [
+    {
+      "name": "custom-words",
+      "path": ".cspell.txt",
+      "addWords": true
+    }
+  ],
+  "import": ["@bit-ocean/cspell"]
+}

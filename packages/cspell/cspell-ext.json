@@ -1,0 +1,64 @@
+{
+  "id": "bit-ocean",
+  "name": "bit-ocean",
+  "description": "Universal CSpell dictionary configuration for Bit Ocean.",
+  "readonly": true,
+  "allowCompoundWords": true,
+  "enableFiletypes": ["astro"],
+  "dictionaryDefinitions": [
+    {
+      "name": "bit-ocean",
+      "path": "./dicts/bit-ocean.txt",
+      "description": "Bit Ocean CSpell dictionary."
+    },
+    {
+      "name": "common",
+      "path": "./dicts/common.txt",
+      "description": "Common CSpell dictionary."
+    },
+    {
+      "name": "prettier",
+      "path": "./dicts/prettier.txt",
+      "description": "Prettier CSpell dictionary."
+    }
+  ],
+  "dictionaries": [],
+  "languageSettings": [
+    {
+      "languageId": "*",
+      "locale": "*",
+      "includeRegExpList": [],
+      "ignoreRegExpList": [],
+      "patterns": [],
+      "dictionaries": ["bit-ocean", "common", "prettier"],
+      "dictionaryDefinitions": []
+    }
+  ],
+  "ignorePaths": [
+    ".github/workflows/**",
+    ".vscode/*.json",
+    "**/.vercel",
+    "**/dist/**",
+    "**/build/**",
+    "**/node_modules/**",
+    "**/public/**",
+    "**/assets/**",
+    "**/CHANGELOG.md",
+    "**/CONTRIBUTORS.md",
+    "**/pnpm-lock.yaml",
+    "**/README.md",
+    "**/tsconfig.tsbuildinfo",
+    "**/.bundle/**",
+    "**/ios/**",
+    "**/android/**",
+    "**/vendor/**",
+    "**/patches/**",
+    "**/storybook-static/**",
+    "**/src-tauri/icons/**",
+    "**/src-tauri/target/**",
+    "**/Cargo.lock",
+    "**/Cargo.toml",
+    "**/coverage/**",
+    "**/stats.html"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@bit-ocean/tsconfig",
+  "version": "0.0.0",
+  "description": "Universal tsconfig for TypeScript projects.",
+  "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
+  "homepage": "https://github.com/bit-ocean-studio/infra#readme",
+  "bugs": "https://github.com/bit-ocean-studio/infra/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bit-ocean-studio/infra.git",
+    "directory": "packages/tsconfig"
+  },
+  "keywords": [
+    "bit-ocean",
+    "bit-ocean-infra",
+    "tsconfig",
+    "typescript-config"
+  ],
+  "files": [
+    "*.json"
+  ],
+  "exports": {
+    "./*.json": "./*.json"
+  },
+  "main": "index.json",
+  "scripts": {
+    "cspell:check": "cspell --no-progress --show-suggestions --show-context --cache **",
+    "prettier:check": "prettier --check --cache --ignore-unknown --ignore-path=../../.prettierignore .",
+    "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

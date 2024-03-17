@@ -57,8 +57,8 @@
         "file": false
       },
       "git": {
-        "commit": true,
-        "stageChanges": true,
+        "commit": false,
+        "stageChanges": false,
         "tag": false,
         "commitMessage": "chore(release): 🔨 {version}"
       }

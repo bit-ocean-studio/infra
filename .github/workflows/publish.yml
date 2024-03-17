@@ -30,7 +30,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
           cache: 'pnpm'
       - name: Print Environment Info
-        run: nx report
+        run: pnpm nx report
         shell: bash
       - name: Publish packages
         run: pnpm release:publish

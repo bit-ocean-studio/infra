@@ -4,11 +4,11 @@
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "scripts": {
     "cspell:sort:dicts": "pnpm --filter @bit-ocean/cspell sort:dicts",
-    "cspell:check": "nx run-many --target=cspell:check --all",
-    "prettier:check": "nx run-many --target=prettier:check --all",
-    "prettier:fix": "nx run-many --target=prettier:fix --all",
-    "release:generate": "nx release --skip-publish",
-    "release:publish": "nx release publish"
+    "cspell:check": "pnpm nx run-many --target=cspell:check --all",
+    "prettier:check": "pnpm nx run-many --target=prettier:check --all",
+    "prettier:fix": "pnpm nx run-many --target=prettier:fix --all",
+    "release:generate": "pnpm nx release --skip-publish",
+    "release:publish": "pnpm nx release publish"
   },
   "dependencies": {
     "next": "^14.1.3",

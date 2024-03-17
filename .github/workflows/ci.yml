@@ -32,7 +32,7 @@ jobs:
       - name: Set SHAs action
         uses: nrwl/nx-set-shas@v4
       - name: Print Environment Info
-        run: nx report
+        run: pnpm nx report
         shell: bash
       - name: CSpell check
         run: pnpm exec nx-cloud record -- pnpm cspell:check

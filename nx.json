@@ -53,14 +53,12 @@
     },
     "changelog": {
       "workspaceChangelog": {
-        "createRelease": "github",
-        "file": false
+        "createRelease": "github"
       },
       "git": {
         "commit": false,
         "stageChanges": false,
-        "tag": false,
-        "commitMessage": "chore(release): 🔨 {version}"
+        "tag": false
       }
     }
   }

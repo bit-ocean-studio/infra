@@ -111,7 +111,6 @@ importers:
       prettier:
         specifier: ^3.0.0
         version: 3.2.5
-    devDependencies:
       prettier-plugin-tailwindcss:
         specifier: ^0.5.12
         version: 0.5.12(prettier@3.2.5)
@@ -4582,7 +4581,7 @@ packages:
         optional: true
     dependencies:
       prettier: 3.2.5
-    dev: true
+    dev: false
 
   /prettier@3.2.5:
     resolution: {integrity: sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==}

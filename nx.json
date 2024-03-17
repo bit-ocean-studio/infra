@@ -46,8 +46,6 @@
     "projects": ["packages/*"],
     "releaseTagPattern": "{version}",
     "git": {
-      "commit": true,
-      "tag": true,
       "commitMessage": "chore(release): 🔨 v{version}"
     },
     "changelog": {

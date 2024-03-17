@@ -51,10 +51,17 @@
   },
   "release": {
     "projects": ["packages/*"],
+    "releaseTagPattern": "{version}",
     "git": {
       "commit": true,
-      "tag": true,
+      "tag": false,
       "commitMessage": "chore(release): 🔨 v{version}"
+    },
+    "changelog": {
+      "workspaceChangelog": {
+        "createRelease": "github",
+        "file": false
+      }
     }
   }
 }

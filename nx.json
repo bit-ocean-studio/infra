@@ -18,36 +18,7 @@
     "sharedGlobals": [],
     "noMarkdown": ["!{projectRoot}/**/*.md"]
   },
-  "plugins": [
-    {
-      "plugin": "@nx/next/plugin",
-      "options": {
-        "buildTargetName": "build",
-        "devTargetName": "dev",
-        "startTargetName": "start",
-        "serveStaticTargetName": "serve-static"
-      }
-    },
-    {
-      "plugin": "@nx/cypress/plugin",
-      "options": {
-        "targetName": "e2e",
-        "componentTestingTargetName": "component-test"
-      }
-    },
-    {
-      "plugin": "@nx/jest/plugin",
-      "options": {
-        "targetName": "test"
-      }
-    },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    }
-  ],
+  "plugins": [],
   "tasksRunnerOptions": {
     "default": {
       "runner": "nx/tasks-runners/default",
@@ -78,5 +49,12 @@
       }
     }
   },
-  "nxCloudAccessToken": "MTJiNmFhMzgtMzQzMy00MTMxLWFkMjgtNmE3ODdjZDg1Y2M2fHJlYWQtd3JpdGU="
+  "release": {
+    "projects": ["packages/*"],
+    "git": {
+      "commit": true,
+      "tag": false,
+      "commitMessage": "chore(release): 🔨 v{version}"
+    }
+  }
 }

@@ -7,7 +7,7 @@
 ## Installation
 
 ```bash
-pnpm add -D @commitlint/cli @commitlint/config-conventional cz-git commitizen @raipiot-infra/commitlint-config
+pnpm add -D @commitlint/cli @commitlint/config-conventional cz-git commitizen @bit-ocean/commitlint-config
 ```
 
 ## Configuration
@@ -44,6 +44,15 @@ pnpm add -D husky
 pnpm i
 npx husky init
 echo 'npx --no -- commitlint --edit "$1"' > .husky/commit-msg
+```
+
+## Usage
+
+Run the following command to commit your changes:
+
+```bash
+git add .
+pnpm cz
 ```
 
 ## License

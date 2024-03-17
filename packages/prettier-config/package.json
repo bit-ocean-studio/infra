@@ -28,11 +28,11 @@
   "peerDependencies": {
     "prettier": "^3.0.0"
   },
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.12"
+  },
   "publishConfig": {
     "access": "public"
   },
-  "license": "MIT",
-  "devDependencies": {
-    "prettier-plugin-tailwindcss": "^0.5.12"
-  }
+  "license": "MIT"
 }

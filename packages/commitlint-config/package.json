@@ -19,6 +19,7 @@
   "files": [
     "index.js"
   ],
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "cspell:check": "cspell --no-progress --show-suggestions --show-context --cache **",

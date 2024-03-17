@@ -41,10 +41,16 @@
       ]
     }
   },
-  "generators": {},
   "release": {
     "projects": ["packages/*"],
     "releaseTagPattern": "{version}",
+    "version": {
+      "git": {
+        "commit": false,
+        "stageChanges": false,
+        "tag": false
+      }
+    },
     "changelog": {
       "workspaceChangelog": {
         "createRelease": "github",
@@ -52,16 +58,9 @@
       },
       "git": {
         "commit": true,
-        "stageChanges": false,
+        "stageChanges": true,
         "tag": false,
         "commitMessage": "chore(release): 🔨 {version}"
-      }
-    },
-    "version": {
-      "git": {
-        "commit": false,
-        "stageChanges": false,
-        "tag": false
       }
     }
   }

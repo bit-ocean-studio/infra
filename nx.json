@@ -45,14 +45,23 @@
   "release": {
     "projects": ["packages/*"],
     "releaseTagPattern": "{version}",
-    "git": {
-      "tag": true,
-      "commit": true,
-      "commitMessage": "chore(release): 🔨 v{version}"
-    },
     "changelog": {
       "workspaceChangelog": {
-        "createRelease": "github"
+        "createRelease": "github",
+        "file": false
+      },
+      "git": {
+        "commit": true,
+        "stageChanges": false,
+        "tag": false,
+        "commitMessage": "chore(release): 🔨 {version}"
+      }
+    },
+    "version": {
+      "git": {
+        "commit": false,
+        "stageChanges": false,
+        "tag": false
       }
     }
   }

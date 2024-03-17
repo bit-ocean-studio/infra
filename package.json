@@ -8,6 +8,8 @@
     "prettier:check": "pnpm nx run-many --target=prettier:check --all",
     "prettier:fix": "pnpm nx run-many --target=prettier:fix --all",
     "release:generate": "pnpm nx release --skip-publish",
+    "release:version": "pnpm nx release version",
+    "release:changelog": "pnpm nx release changelog",
     "release:publish": "pnpm nx release publish"
   },
   "dependencies": {

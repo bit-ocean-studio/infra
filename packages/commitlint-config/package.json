@@ -1,0 +1,43 @@
+{
+  "name": "@bit-ocean/commitlint-config",
+  "version": "0.0.8",
+  "description": "Universal Commitlint configuration.",
+  "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
+  "homepage": "https://github.com/bit-ocean-studio/infra#readme",
+  "bugs": "https://github.com/bit-ocean-studio/infra/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bit-ocean-studio/infra.git",
+    "directory": "packages/commitlint-config"
+  },
+  "keywords": [
+    "bit-ocean",
+    "bit-ocean-infra",
+    "commitlint",
+    "commitlint-config"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "cspell:check": "cspell --no-progress --show-suggestions --show-context --cache **",
+    "prettier:check": "prettier --check --cache --ignore-unknown --ignore-path=../../.prettierignore .",
+    "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^19.2.0",
+    "@commitlint/config-conventional": "^19.1.0",
+    "commitizen": "^4.3.0",
+    "cz-git": "^1.9.0"
+  },
+  "peerDependenciesMeta": {
+    "cz-git": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

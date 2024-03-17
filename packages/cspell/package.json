@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/cspell",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Universal CSpell dictionary configuration.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",

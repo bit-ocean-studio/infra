@@ -53,7 +53,7 @@
     "projects": ["packages/*"],
     "git": {
       "commit": true,
-      "tag": false,
+      "tag": true,
       "commitMessage": "chore(release): 🔨 v{version}"
     }
   }

@@ -1,0 +1,2 @@
+pnpm prettier:check
+pnpm cspell:check

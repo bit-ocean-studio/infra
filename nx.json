@@ -56,9 +56,9 @@
         "createRelease": "github"
       },
       "git": {
-        "commit": false,
-        "stageChanges": false,
-        "tag": false
+        "commit": true,
+        "stageChanges": true,
+        "tag": true
       }
     }
   }

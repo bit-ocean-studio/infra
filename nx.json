@@ -41,20 +41,13 @@
       ]
     }
   },
-  "generators": {
-    "@nx/next": {
-      "application": {
-        "style": "scss",
-        "linter": "eslint"
-      }
-    }
-  },
+  "generators": {},
   "release": {
     "projects": ["packages/*"],
     "releaseTagPattern": "{version}",
     "git": {
       "commit": true,
-      "tag": false,
+      "tag": true,
       "commitMessage": "chore(release): 🔨 v{version}"
     },
     "changelog": {

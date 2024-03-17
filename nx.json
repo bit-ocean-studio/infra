@@ -58,7 +58,7 @@
       "git": {
         "commit": true,
         "stageChanges": true,
-        "tag": true,
+        "tag": false,
         "commitMessage": "release: 🔖 {version}"
       }
     }

@@ -29,7 +29,7 @@
   },
   "targetDefaults": {
     "build": {
-      "inputs": ["noMarkdown", "^noMarkdown "]
+      "inputs": ["noMarkdown", "^noMarkdown"]
     },
     "@nx/eslint:lint": {
       "cache": true,

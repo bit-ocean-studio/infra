@@ -1,6 +1,8 @@
 antd
 astro
+astrojs
 clsx
 cocoapods
 tauri
 tsbuildinfo
+webp

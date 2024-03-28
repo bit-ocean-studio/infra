@@ -1,3 +1,15 @@
+## 0.0.11 (2024-03-28)
+
+
+### 🚀 Features
+
+- :sparkles: add docs site ([523779d](https://github.com/bit-ocean-studio/infra/commit/523779d))
+- **prettier-config:** :sparkles: support astro ([b3d9473](https://github.com/bit-ocean-studio/infra/commit/b3d9473))
+
+### ❤️  Thank You
+
+- Bruce @recallwei
+
 ## 0.0.10 (2024-03-17)
 
 This was a version bump only, there were no code changes.

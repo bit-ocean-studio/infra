@@ -1,3 +1,14 @@
+## 0.0.12 (2024-03-28)
+
+
+### 🚀 Features
+
+- **tsconfig:** :sparkles: remove specific json suffix ([18855e9](https://github.com/bit-ocean-studio/infra/commit/18855e9))
+
+### ❤️  Thank You
+
+- Bruce @recallwei
+
 ## 0.0.11 (2024-03-28)
 
 

@@ -20,7 +20,7 @@
     "*.json"
   ],
   "exports": {
-    "./*.json": "./*.json"
+    "./*": "./*.json"
   },
   "main": "index.json",
   "scripts": {

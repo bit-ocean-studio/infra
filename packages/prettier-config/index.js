@@ -17,7 +17,16 @@ module.exports = {
   trailingComma: 'none',
   useTabs: false,
   vueIndentScriptAndStyle: false,
-  plugins: ['prettier-plugin-tailwindcss'],
   tailwindAttributes: ['className', 'class', ':class'],
-  tailwindFunctions: ['clsx', 'tw']
+  tailwindFunctions: ['clsx', 'tw'],
+  astroAllowShorthand: false,
+  overrides: [
+    {
+      files: '*.astro',
+      options: {
+        parser: 'astro'
+      }
+    }
+  ],
+  plugins: ['prettier-plugin-tailwindcss', 'prettier-plugin-astro']
 }

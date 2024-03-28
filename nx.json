@@ -48,7 +48,8 @@
       "git": {
         "commit": false,
         "stageChanges": false,
-        "tag": false
+        "tag": false,
+        "commitMessage": "release: 🔖 {version}"
       }
     },
     "changelog": {

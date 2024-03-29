@@ -1,21 +1,8 @@
-import fs from 'node:fs'
-import path from 'node:path'
+import { UserConfig } from 'cz-git'
 
-const appsDir = path.resolve(process.cwd(), 'apps')
-const packagesDir = path.resolve(process.cwd(), 'packages')
+import { getPackages } from './utils'
 
-let apps = []
-let packages = []
-
-if (fs.existsSync(appsDir)) {
-  apps = fs.readdirSync(appsDir)
-}
-if (fs.existsSync(packagesDir)) {
-  packages = fs.readdirSync(packagesDir)
-}
-
-/** @type {import('cz-git').UserConfig} */
-export default {
+const commitlintConfig: UserConfig = {
   extends: '@commitlint/config-conventional',
   rules: {
     'type-enum': [
@@ -53,7 +40,9 @@ export default {
       footerPrefixesSelect: '选择关联 Issue 前缀（可选）:',
       customFooterPrefix: '输入自定义 Issue 前缀 :',
       footer: '列举关联 Issue (可选) 例如: #1, #2 :\n',
-      confirmCommit: '是否提交或修改 Commit ?'
+      confirmCommit: '是否提交或修改 Commit ?',
+      generatedSelectByAI: '请选择 AI 生成的合适的主题 :',
+      generatingByAI: '正在通过 AI 生成提交主题...'
     },
     types: [
       {
@@ -132,7 +121,7 @@ export default {
     useAI: false,
     aiNumber: 1,
     themeColorCode: '',
-    scopes: [...apps, ...packages],
+    scopes: [...getPackages('app'), ...getPackages('packages')],
     enableMultipleScopes: true,
     scopeEnumSeparator: ',',
     allowCustomScopes: true,
@@ -166,3 +155,4 @@ export default {
     defaultSubject: ''
   }
 }
+export default commitlintConfig

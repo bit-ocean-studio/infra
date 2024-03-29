@@ -6,3 +6,4 @@ cocoapods
 tauri
 tsbuildinfo
 webp
+tsup

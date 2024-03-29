@@ -35,7 +35,7 @@ jobs:
         run: pnpm nx report
         shell: bash
       - name: Build packages
-        run: pnpm packages:build
+        run: pnpm build:packages
         shell: bash
       - name: Lint check
         run: pnpm exec nx-cloud record -- pnpm lint:check

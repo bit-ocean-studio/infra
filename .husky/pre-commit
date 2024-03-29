@@ -1,3 +1,1 @@
-pnpm type:check
-pnpm prettier:check
-pnpm cspell:check
+pnpm lint:check

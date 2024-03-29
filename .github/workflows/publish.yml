@@ -34,6 +34,9 @@ jobs:
       - name: Print Environment Info
         run: npx nx report
         shell: bash
+      - name: Build packages
+        run: pnpm packages:build
+        shell: bash
       - name: Publish packages
         run: pnpm release:publish
         shell: bash

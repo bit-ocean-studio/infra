@@ -34,9 +34,7 @@ jobs:
       - name: Print Environment Info
         run: pnpm nx report
         shell: bash
-      - name: Prettier check
-        run: pnpm exec nx-cloud record -- pnpm prettier:check
-      - name: CSpell check
-        run: pnpm exec nx-cloud record -- pnpm cspell:check
+      - name: Lint check
+        run: pnpm exec nx-cloud record -- pnpm lint:check
     env:
       NX_CLOUD_ACCESS_TOKEN: ${{ secrets.NX_CLOUD_ACCESS_TOKEN }}

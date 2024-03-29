@@ -60,5 +60,8 @@
     "**/Cargo.toml",
     "**/coverage/**",
     "**/stats.html"
-  ]
+  ],
+  "cache": {
+    "cacheLocation": "./node_modules/.cache/cspell/.cspell-cache"
+  }
 }

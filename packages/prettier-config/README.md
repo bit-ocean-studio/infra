@@ -20,11 +20,25 @@ Create a `.prettierrc.json` file in the root of your project and add the followi
 "@bit-ocean/prettier-config"
 ```
 
+Use Astro:
+
+```json
+"@bit-ocean/prettier-config/astro"
+```
+
 Or add the following prettier property to your `package.json`:
 
 ```json
 {
   "prettier": "@bit-ocean/prettier-config"
+}
+```
+
+Use Astro:
+
+```json
+{
+  "prettier": "@bit-ocean/prettier-config/astro"
 }
 ```
 

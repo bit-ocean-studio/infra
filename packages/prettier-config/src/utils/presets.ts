@@ -1,5 +1,6 @@
-/** @type {import('prettier').Options} */
-module.exports = {
+import { Options } from 'prettier'
+
+export const basePresets: Options = {
   arrowParens: 'always',
   bracketSameLine: false,
   bracketSpacing: true,
@@ -16,9 +17,16 @@ module.exports = {
   tabWidth: 2,
   trailingComma: 'none',
   useTabs: false,
-  vueIndentScriptAndStyle: false,
+  vueIndentScriptAndStyle: false
+}
+
+export const tailwindPresets: Options = {
   tailwindAttributes: ['className', 'class', ':class'],
   tailwindFunctions: ['clsx', 'tw'],
+  plugins: ['prettier-plugin-tailwindcss']
+}
+
+export const astroPresets: Options = {
   astroAllowShorthand: false,
   overrides: [
     {
@@ -28,5 +36,5 @@ module.exports = {
       }
     }
   ],
-  plugins: ['prettier-plugin-tailwindcss', 'prettier-plugin-astro']
+  plugins: ['prettier-plugin-astro']
 }

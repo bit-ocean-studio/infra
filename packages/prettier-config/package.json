@@ -17,10 +17,24 @@
     "prettier-config"
   ],
   "files": [
-    "index.js"
+    "dist"
   ],
-  "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./astro": {
+      "import": "./dist/astro.mjs",
+      "require": "./dist/astro.js",
+      "types": "./dist/astro.d.ts"
+    }
+  },
   "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "type:check": "tsc --pretty --noEmit",
     "cspell:check": "cspell --no-progress --show-suggestions --show-context --cache **",
     "prettier:check": "prettier --check --cache --ignore-unknown --ignore-path=../../.prettierignore .",
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."

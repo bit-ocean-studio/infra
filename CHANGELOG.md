@@ -1,3 +1,15 @@
+## 0.0.13 (2024-03-29)
+
+
+### 🚀 Features
+
+- **commitlint-config:** :sparkles: rewrite with typescript ([b5bb6f6](https://github.com/bit-ocean-studio/infra/commit/b5bb6f6))
+- **prettier-config:** :sparkles: rewrite with typescript, support multi entries ([d5de32e](https://github.com/bit-ocean-studio/infra/commit/d5de32e))
+
+### ❤️  Thank You
+
+- Bruce @recallwei
+
 ## 0.0.12 (2024-03-28)
 
 

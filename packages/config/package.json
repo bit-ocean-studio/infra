@@ -1,36 +1,26 @@
 {
-  "name": "@bit-ocean/prettier-config",
+  "name": "@bit-ocean/config",
   "version": "0.0.14",
-  "description": "Universal Prettier configuration.",
+  "description": "Universal project configuration.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
   "bugs": "https://github.com/bit-ocean-studio/infra/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/bit-ocean-studio/infra.git",
-    "directory": "packages/prettier-config"
+    "directory": "packages/config"
   },
   "keywords": [
     "bit-ocean",
     "bit-ocean-infra",
-    "prettier",
-    "prettier-config"
+    "config"
   ],
   "files": [
     "dist"
   ],
-  "exports": {
-    ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    },
-    "./astro": {
-      "import": "./dist/astro.mjs",
-      "require": "./dist/astro.js",
-      "types": "./dist/astro.d.ts"
-    }
-  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
@@ -38,13 +28,6 @@
     "cspell:check": "cspell --no-progress --show-suggestions --show-context --cache **",
     "prettier:check": "prettier --check --cache --ignore-unknown --ignore-path=../../.prettierignore .",
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
-  },
-  "peerDependencies": {
-    "prettier": "^3.0.0"
-  },
-  "dependencies": {
-    "prettier-plugin-astro": "^0.13.0",
-    "prettier-plugin-tailwindcss": "^0.5.13"
   },
   "publishConfig": {
     "access": "public"

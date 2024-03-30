@@ -3,6 +3,7 @@
 > 🚀 Built reliable infrastructure for Bit Ocean.
 
 ![npm](https://img.shields.io/npm/v/@bit-ocean/commitlint-config?logo=commitlint&label=commitlint-config)
+![npm](https://img.shields.io/npm/v/@bit-ocean/config?logo=prettier&label=config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/cspell?logo=npm&label=cspell)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/eslint-config?logo=eslint&label=eslint-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/prettier-config?logo=prettier&label=prettier-config)
@@ -14,7 +15,7 @@
 - [`axios`](/packages/axios/README.md): Universal Axios instance.
 - [`bootstrap`](/packages/bootstrap/README.md): Bootstrap scripts.
 - [`commitlint-config`](/packages/commitlint-config/README.md): Universal Commitlint configuration.
-- [`config`](/packages/config/README.md): Universal configuration.
+- [`config`](/packages/config/README.md): Universal project configuration.
 - [`cspell`](/packages/cspell/README.md): Universal CSpell dictionary configuration.
 - [`eslint-config`](/packages/eslint-config/README.md): Universal ESLint configuration.
 - [`hooks`](/packages/hooks/README.md): Universal hooks.

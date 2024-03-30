@@ -1,0 +1,4 @@
+{
+  "extends": "@bit-ocean/tsconfig/base",
+  "include": ["src", "tsup.config.ts"]
+}

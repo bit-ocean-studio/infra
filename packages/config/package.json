@@ -1,0 +1,36 @@
+{
+  "name": "@bit-ocean/config",
+  "version": "0.0.13",
+  "description": "Universal project configuration.",
+  "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
+  "homepage": "https://github.com/bit-ocean-studio/infra#readme",
+  "bugs": "https://github.com/bit-ocean-studio/infra/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bit-ocean-studio/infra.git",
+    "directory": "packages/config"
+  },
+  "keywords": [
+    "bit-ocean",
+    "bit-ocean-infra",
+    "config"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "type:check": "tsc --pretty --noEmit",
+    "cspell:check": "cspell --no-progress --show-suggestions --show-context --cache **",
+    "prettier:check": "prettier --check --cache --ignore-unknown --ignore-path=../../.prettierignore .",
+    "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

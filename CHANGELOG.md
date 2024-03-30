@@ -1,3 +1,19 @@
+## 0.0.14 (2024-03-30)
+
+
+### 🚀 Features
+
+- **config:** :sparkles: add @bit-ocean/config package ([80d373c](https://github.com/bit-ocean-studio/infra/commit/80d373c))
+- **cspell:** :sparkles: add custom cache location ([784f23d](https://github.com/bit-ocean-studio/infra/commit/784f23d))
+
+### 🩹 Fixes
+
+- :bug: error build script ([bedf9e1](https://github.com/bit-ocean-studio/infra/commit/bedf9e1))
+
+### ❤️  Thank You
+
+- Bruce @recallwei
+
 ## 0.0.13 (2024-03-29)
 
 

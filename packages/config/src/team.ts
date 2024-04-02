@@ -9,7 +9,7 @@ export interface TeamConfig {
   githubURL: string
 }
 
-export const teamConfig = Object.freeze<TeamConfig>({
+export const teamConfig: Readonly<TeamConfig> = Object.freeze<TeamConfig>({
   teamName: 'Bit Ocean',
   githubURL: 'https://github.com/bit-ocean-studio'
 })

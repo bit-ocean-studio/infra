@@ -19,10 +19,6 @@
   "files": [
     "*.json"
   ],
-  "exports": {
-    "./*": "./*.json"
-  },
-  "main": "index.json",
   "scripts": {
     "cspell:check": "cspell --no-progress --show-suggestions --show-context --cache **",
     "prettier:check": "prettier --check --cache --ignore-unknown --ignore-path=../../.prettierignore .",

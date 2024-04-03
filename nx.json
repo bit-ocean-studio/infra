@@ -44,12 +44,30 @@
   "release": {
     "projects": ["packages/*"],
     "releaseTagPattern": "{version}",
+    "conventionalCommits": {
+      "types": {
+        "build": true,
+        "chore": true,
+        "ci": true,
+        "deps": true,
+        "docs": true,
+        "feat": true,
+        "fix": true,
+        "i18n": true,
+        "perf": true,
+        "refactor": true,
+        "release": true,
+        "revert": true,
+        "style": true,
+        "test": true
+      }
+    },
     "version": {
       "git": {
-        "commit": false,
-        "stageChanges": false,
+        "commit": true,
+        "stageChanges": true,
         "tag": false,
-        "commitMessage": "release: 🔖 {version}"
+        "commitMessage": "chore: bump version {version}"
       }
     },
     "changelog": {

@@ -1,1 +1,2 @@
-export { type TeamConfig, teamConfig } from './team'
+export { teamConfig } from './team'
+export { type TeamConfig } from './types'

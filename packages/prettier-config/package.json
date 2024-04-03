@@ -21,14 +21,19 @@
   ],
   "exports": {
     ".": {
+      "import": "./dist/configs/base.mjs",
+      "require": "./dist/configs/base.js",
+      "types": "./dist/configs/base.d.ts"
+    },
+    "./utils": {
       "import": "./dist/index.mjs",
       "require": "./dist/index.js",
       "types": "./dist/index.d.ts"
     },
-    "./astro": {
-      "import": "./dist/astro.mjs",
-      "require": "./dist/astro.js",
-      "types": "./dist/astro.d.ts"
+    "./*": {
+      "import": "./dist/configs/*.mjs",
+      "require": "./dist/configs/*.js",
+      "types": "./dist/configs/*.d.ts"
     }
   },
   "scripts": {
@@ -40,7 +45,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "prettier": "^3.0.0"
+    "prettier": "^3.2.5"
   },
   "dependencies": {
     "prettier-plugin-astro": "^0.13.0",

@@ -19,22 +19,3 @@ export const basePresets: Options = {
   useTabs: false,
   vueIndentScriptAndStyle: false
 }
-
-export const tailwindPresets: Options = {
-  tailwindAttributes: ['className', 'class', ':class'],
-  tailwindFunctions: ['clsx', 'tw'],
-  plugins: ['prettier-plugin-tailwindcss']
-}
-
-export const astroPresets: Options = {
-  astroAllowShorthand: false,
-  overrides: [
-    {
-      files: '*.astro',
-      options: {
-        parser: 'astro'
-      }
-    }
-  ],
-  plugins: ['prettier-plugin-astro']
-}

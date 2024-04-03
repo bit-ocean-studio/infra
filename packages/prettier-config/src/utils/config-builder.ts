@@ -1,7 +1,6 @@
 import { Options } from 'prettier'
 
-import { basePresets, tailwindPresets, astroPresets } from './presets'
-import { mergePlugins } from './merge-plugins'
+import { basePresets, tailwindPresets, astroPresets } from '../presets'
 import { mergeConfigs } from './merge-configs'
 
 interface ConfigBuilderOptions {

@@ -1,7 +1,7 @@
 import { defineConfig } from 'tsup'
 
 export default defineConfig((options) => ({
-  entry: ['src/index.ts', 'src/astro.ts'],
+  entry: ['src/index.ts', 'src/configs/**'],
   treeshake: true,
   splitting: true,
   sourcemap: true,

@@ -5,5 +5,5 @@ clsx
 cocoapods
 tauri
 tsbuildinfo
-webp
 tsup
+webp

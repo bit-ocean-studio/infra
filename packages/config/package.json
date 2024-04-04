@@ -26,6 +26,8 @@
     "build": "tsup",
     "type:check": "tsc --pretty --noEmit",
     "cspell:check": "cspell --no-progress --show-suggestions --show-context --cache **",
+    "eslint:check": "eslint . --color --cache",
+    "eslint:fix": "eslint . --color --cache --fix",
     "prettier:check": "prettier --check --cache --ignore-unknown --ignore-path=../../.prettierignore .",
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },

@@ -1,4 +1,4 @@
-import { TeamConfig } from './types'
+import type { TeamConfig } from './types'
 
 export const teamConfig = Object.freeze<Readonly<TeamConfig>>({
   teamName: 'Bit Ocean',

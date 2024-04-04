@@ -1,4 +1,4 @@
-import { ConfigBuilder } from '../utils'
+import { ConfigBuilder } from '../config-builder'
 
 const astroConfig = new ConfigBuilder({
   tailwind: true,

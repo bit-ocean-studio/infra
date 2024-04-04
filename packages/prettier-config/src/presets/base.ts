@@ -1,4 +1,4 @@
-import { Options } from 'prettier'
+import type { Options } from 'prettier'
 
 export const basePresets: Options = {
   arrowParens: 'always',

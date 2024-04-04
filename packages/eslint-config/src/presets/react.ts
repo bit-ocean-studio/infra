@@ -1,0 +1,31 @@
+import type { Linter } from 'eslint'
+
+export const reactRules: Linter.RulesRecord = {
+  'react/checked-requires-onchange-or-readonly': 'error',
+  'react/destructuring-assignment': ['error', 'always'],
+  'react/display-name': 'error',
+  'react/forbid-component-props': 'error',
+  'react/function-component-definition': 'error',
+  'react/hook-use-state': 'error',
+  'react/iframe-missing-sandbox': 'error',
+  'react/jsx-key': 'error',
+  'react/jsx-no-comment-textnodes': 'error',
+  'react/jsx-no-duplicate-props': 'error',
+  'react/jsx-no-target-blank': ['error', { enforceDynamicLinks: 'always' }],
+  'react/jsx-no-undef': 'off',
+  'react/no-children-prop': 'error',
+  'react/no-danger-with-children': 'error',
+  'react/no-deprecated': 'error',
+  'react/no-find-dom-node': 'error',
+  'react/no-is-mounted': 'error',
+  'react/no-render-return-value': 'error',
+  'react/no-string-refs': 'error',
+  'react/no-unescaped-entities': 'error',
+  'react/no-unknown-property': 'error',
+  'react/prop-types': 'error',
+  'react/jsx-props-no-spreading': 'off',
+  'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.tsx'] }],
+  'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
+  'react/no-array-index-key': 'off',
+  'react/no-unstable-nested-components': ['error', { allowAsProps: true, customValidators: [] }]
+}

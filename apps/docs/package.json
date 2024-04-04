@@ -6,14 +6,19 @@
     "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "cspell:check": "cspell --no-progress --show-suggestions --show-context --cache **",
+    "eslint:check": "eslint . --color --cache",
+    "eslint:fix": "eslint . --color --cache --fix",
+    "prettier:check": "prettier --check --cache --ignore-unknown --ignore-path=../../.prettierignore .",
+    "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.21.2",
-    "astro": "^4.5.9",
+    "@astrojs/starlight": "^0.21.3",
+    "astro": "^4.5.16",
     "sharp": "^0.33.3",
     "@astrojs/check": "^0.5.10",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.4"
   },
   "private": true,
   "license": "MIT"

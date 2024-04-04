@@ -1,4 +1,4 @@
-import { UserConfig } from 'cz-git'
+import type { UserConfig } from 'cz-git'
 
 import { getPackages } from './utils'
 

@@ -1,3 +1,35 @@
+## 0.0.15 (2024-04-04)
+
+
+### 🚀 Features
+
+- **config:** :sparkles: make config type readonly ([165b0db](https://github.com/bit-ocean-studio/infra/commit/165b0db))
+- **eslint-config:** :sparkles: add @bit-ocean/eslint-config ([6292f88](https://github.com/bit-ocean-studio/infra/commit/6292f88))
+
+### 🩹 Fixes
+
+- **cspell:** :bug: sort script error ([e8aaf2e](https://github.com/bit-ocean-studio/infra/commit/e8aaf2e))
+
+### 💅 Refactors
+
+- **config:** :recycle: extract types to independent file ([eb92e53](https://github.com/bit-ocean-studio/infra/commit/eb92e53))
+- **prettier-config:** :recycle: update package export strategy ([8b5d2f6](https://github.com/bit-ocean-studio/infra/commit/8b5d2f6))
+
+### 🏡 Chore
+
+- :hammer: update nx.json ([f5babc3](https://github.com/bit-ocean-studio/infra/commit/f5babc3))
+- :hammer: add .env.example ([864d362](https://github.com/bit-ocean-studio/infra/commit/864d362))
+- bump version 0.0.15 ([3443b6e](https://github.com/bit-ocean-studio/infra/commit/3443b6e))
+- **tsconfig:** :hammer: remove unnecessary fields in package.json ([93bd464](https://github.com/bit-ocean-studio/infra/commit/93bd464))
+
+### deps
+
+- :rocket: bump package version ([79ddae7](https://github.com/bit-ocean-studio/infra/commit/79ddae7))
+
+### ❤️  Thank You
+
+- Bruce @recallwei
+
 ## 0.0.14 (2024-03-30)
 
 

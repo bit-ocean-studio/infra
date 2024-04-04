@@ -9,7 +9,7 @@ This package provides a universal project configuration for all our projects.
 ## Installation
 
 ```bash
-pnpm add -D @bit-ocean/config
+pnpm add @bit-ocean/config
 ```
 
 ## License

@@ -1,0 +1,44 @@
+{
+  "name": "@bit-ocean/axios",
+  "version": "0.0.15",
+  "description": "Universal Axios instance.",
+  "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
+  "homepage": "https://github.com/bit-ocean-studio/infra#readme",
+  "bugs": "https://github.com/bit-ocean-studio/infra/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bit-ocean-studio/infra.git",
+    "directory": "packages/axios"
+  },
+  "keywords": [
+    "bit-ocean",
+    "bit-ocean-infra",
+    "axios",
+    "axios-instance"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "type:check": "tsc --pretty --noEmit",
+    "cspell:check": "cspell --no-progress --show-suggestions --show-context --cache **",
+    "eslint:check": "eslint . --color --cache",
+    "eslint:fix": "eslint . --color --cache --fix",
+    "prettier:check": "prettier --check --cache --ignore-unknown --ignore-path=../../.prettierignore .",
+    "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
+  },
+  "peerDependencies": {
+    "axios": "^1.6.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

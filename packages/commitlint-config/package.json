@@ -36,7 +36,7 @@
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
     "commitizen": "^4.3.0",
-    "cz-git": "^1.9.0"
+    "cz-git": "^1.9.1"
   },
   "peerDependenciesMeta": {
     "cz-git": {

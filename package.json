@@ -4,7 +4,7 @@
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "scripts": {
     "build:packages": "pnpm nx run-many -t build -p @bit-ocean/* --verbose",
-    "lint:check": "pnpm nx run-many -t type:check cspell:check eslint:check prettier:check --all --parallel=10",
+    "lint:check": "pnpm nx run-many -t type:check cspell:check eslint:check prettier:fix --all --parallel=10",
     "type:check": "pnpm nx run-many -t type:check --all",
     "cspell:sort:dicts": "pnpm --filter @bit-ocean/cspell sort:dicts",
     "cspell:check": "pnpm nx run-many -t cspell:check --all",

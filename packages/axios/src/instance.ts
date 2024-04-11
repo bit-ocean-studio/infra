@@ -6,87 +6,72 @@ import type { HttpRequestOptions } from './types'
 export class HttpRequest {
   #instance: AxiosInstance
 
-  #BASE_API_PREFIX: string = 'base-api'
-
-  readonly #config: AxiosRequestConfig = {
+  #config: AxiosRequestConfig = {
     timeout: 30_000,
     withCredentials: false,
-    headers: {
-      'Content-Type': 'application/json;charset=utf-8'
-    }
+    headers: { 'Content-Type': 'application/json;charset=utf-8' }
   }
 
-  constructor(options?: HttpRequestOptions) {
-    const { baseAPIPrefix } = options ?? {}
-    if (baseAPIPrefix) {
-      this.#BASE_API_PREFIX = baseAPIPrefix
-    }
-    this.#instance = axios.create(this.#config)
-  }
-
-  async initInterceptors() {
-    await 1
+  constructor(httpRequestOptions?: HttpRequestOptions) {
+    const { baseURL } = httpRequestOptions ?? {}
+    this.#instance = axios.create({ ...this.#config, baseURL })
   }
 
   /**
-   * Common request
-   * @param config Request config
+   * 通用请求
+   * @param config 请求配置
    */
   async request<T>(config: AxiosRequestConfig): Promise<T> {
     return this.#instance.request(config)
   }
 
   /**
-   * GET method request
-   * @param url
-   * @param params
-   * @param config
+   * GET 请求
+   * @param url 请求地址
+   * @param params 请求参数
+   * @param config 请求配置
    */
   async get<T>(url: string, params?: Record<string, any>, config?: AxiosRequestConfig): Promise<T> {
     return this.#instance.get(url, { params, ...config })
   }
 
   /**
-   * POST method request
-   * @param url
-   * @param data
-   * @param config
+   * POST 请求
+   * @param url 请求地址
+   * @param data 请求数据
+   * @param config 请求配置
    */
   async post<T>(url: string, data?: Record<string, any>, config?: AxiosRequestConfig): Promise<T> {
     return this.#instance.post(url, data, config)
   }
 
   /**
-   * PUT method request
-   * @param url
-   * @param data
-   * @param config
+   * PUT 请求
+   * @param url 请求地址
+   * @param data 请求数据
+   * @param config 请求配置
    */
-  async put<T>(url: string, data?: Record<string, any>, config?: AxiosRequestConfig): Promise<T> {
+  put<T>(url: string, data?: Record<string, any>, config?: AxiosRequestConfig): Promise<T> {
     return this.#instance.put(url, data, config)
   }
 
   /**
-   * DELETE method request
-   * @param url
-   * @param params
-   * @param config
+   * DELETE 请求
+   * @param url 请求地址
+   * @param params 请求参数
+   * @param config 请求配置
    */
-  async delete<T>(
-    url: string,
-    params?: Record<string, any>,
-    config?: AxiosRequestConfig
-  ): Promise<T> {
+  delete<T>(url: string, params?: Record<string, any>, config?: AxiosRequestConfig): Promise<T> {
     return this.#instance.delete(url, { params, ...config })
   }
 
   /**
-   * PATCH method request
-   * @param url
-   * @param data
-   * @param config
+   * PATCH 请求
+   * @param url 请求地址
+   * @param data 请求数据
+   * @param config 请求配置
    */
-  async patch<T>(url: string, data?: Record<string, any>, config?: AxiosRequestConfig): Promise<T> {
+  patch<T>(url: string, data?: Record<string, any>, config?: AxiosRequestConfig): Promise<T> {
     return this.#instance.patch(url, data, config)
   }
 }

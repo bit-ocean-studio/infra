@@ -1,6 +1,5 @@
 ## 0.0.15 (2024-04-04)
 
-
 ### 🚀 Features
 
 - **config:** :sparkles: make config type readonly ([165b0db](https://github.com/bit-ocean-studio/infra/commit/165b0db))
@@ -26,12 +25,11 @@
 
 - :rocket: bump package version ([79ddae7](https://github.com/bit-ocean-studio/infra/commit/79ddae7))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Bruce @recallwei
 
 ## 0.0.14 (2024-03-30)
-
 
 ### 🚀 Features
 
@@ -42,42 +40,39 @@
 
 - :bug: error build script ([bedf9e1](https://github.com/bit-ocean-studio/infra/commit/bedf9e1))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Bruce @recallwei
 
 ## 0.0.13 (2024-03-29)
-
 
 ### 🚀 Features
 
 - **commitlint-config:** :sparkles: rewrite with typescript ([b5bb6f6](https://github.com/bit-ocean-studio/infra/commit/b5bb6f6))
 - **prettier-config:** :sparkles: rewrite with typescript, support multi entries ([d5de32e](https://github.com/bit-ocean-studio/infra/commit/d5de32e))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Bruce @recallwei
 
 ## 0.0.12 (2024-03-28)
 
-
 ### 🚀 Features
 
 - **tsconfig:** :sparkles: remove specific json suffix ([18855e9](https://github.com/bit-ocean-studio/infra/commit/18855e9))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Bruce @recallwei
 
 ## 0.0.11 (2024-03-28)
-
 
 ### 🚀 Features
 
 - :sparkles: add docs site ([523779d](https://github.com/bit-ocean-studio/infra/commit/523779d))
 - **prettier-config:** :sparkles: support astro ([b3d9473](https://github.com/bit-ocean-studio/infra/commit/b3d9473))
 
-### ❤️  Thank You
+### ❤️ Thank You
 
 - Bruce @recallwei
 

@@ -14,7 +14,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.21.3",
+    "@astrojs/starlight": "^0.21.4",
     "astro": "^4.5.16",
     "sharp": "^0.33.3",
     "@astrojs/check": "^0.5.10",

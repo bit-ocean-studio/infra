@@ -1,1 +1,2 @@
 pnpm lint:check
+pnpm exec lint-staged

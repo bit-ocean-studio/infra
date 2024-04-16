@@ -59,23 +59,15 @@
         "chore": true
       }
     },
-    "version": {
-      "git": {
-        "commit": true,
-        "stageChanges": true,
-        "tag": false,
-        "commitMessage": "chore: bump version {version}"
-      }
+    "git": {
+      "commit": true,
+      "stageChanges": true,
+      "tag": false,
+      "commitMessage": "chore(release): 🔖 {version}"
     },
     "changelog": {
       "workspaceChangelog": {
         "createRelease": "github"
-      },
-      "git": {
-        "commit": true,
-        "stageChanges": true,
-        "tag": false,
-        "commitMessage": "release: 🔖 {version}"
       }
     }
   }

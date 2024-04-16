@@ -15,7 +15,7 @@
     "release:generate": "pnpm nx release --skip-publish",
     "release:version": "pnpm nx release version",
     "release:changelog": "pnpm nx release changelog",
-    "release:publish": "pnpm build:packages && pnpm nx release publish",
+    "release:publish": "pnpm nx release publish",
     "cz": "git-cz",
     "prepare": "husky"
   },

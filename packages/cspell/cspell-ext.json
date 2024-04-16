@@ -15,11 +15,6 @@
       "name": "common",
       "path": "./dicts/common.txt",
       "description": "Common CSpell dictionary."
-    },
-    {
-      "name": "prettier",
-      "path": "./dicts/prettier.txt",
-      "description": "Prettier CSpell dictionary."
     }
   ],
   "dictionaries": [],
@@ -30,7 +25,7 @@
       "includeRegExpList": [],
       "ignoreRegExpList": [],
       "patterns": [],
-      "dictionaries": ["bit-ocean", "common", "prettier"],
+      "dictionaries": ["bit-ocean", "common", "ext", "prettier"],
       "dictionaryDefinitions": []
     }
   ],

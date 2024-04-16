@@ -1,3 +1,38 @@
+## 0.0.16 (2024-04-16)
+
+### 🚀 Features
+
+- add axios package ([b0ec124](https://github.com/bit-ocean-studio/infra/commit/b0ec124))
+- **axios:** :sparkles: add axios instance request methods ([3ea6bc0](https://github.com/bit-ocean-studio/infra/commit/3ea6bc0))
+
+### 💅 Refactors
+
+- **cspell:** :recycle: sort dict script using typescript instead of bun script ([0a7488b](https://github.com/bit-ocean-studio/infra/commit/0a7488b))
+
+### 📖 Documentation
+
+- **config:** :memo: update install script ([765e210](https://github.com/bit-ocean-studio/infra/commit/765e210))
+
+### 🏡 Chore
+
+- :hammer: update lint:check script ([7b7087e](https://github.com/bit-ocean-studio/infra/commit/7b7087e))
+- :hammer: add lint-staged ([41a5c2c](https://github.com/bit-ocean-studio/infra/commit/41a5c2c))
+- :hammer: remove .cspell.txt ([7a423db](https://github.com/bit-ocean-studio/infra/commit/7a423db))
+- :hammer: .lintstagedrc.json add eslint fix script ([dd7117d](https://github.com/bit-ocean-studio/infra/commit/dd7117d))
+- bump version 0.0.16 ([426f3af](https://github.com/bit-ocean-studio/infra/commit/426f3af))
+
+### 🎨 Styles
+
+- **config:** :lipstick: eslint fix ([b759c34](https://github.com/bit-ocean-studio/infra/commit/b759c34))
+
+### deps
+
+- :rocket: update ([0029e29](https://github.com/bit-ocean-studio/infra/commit/0029e29))
+
+### ❤️ Thank You
+
+- Bruce @recallwei
+
 ## 0.0.15 (2024-04-04)
 
 ### 🚀 Features

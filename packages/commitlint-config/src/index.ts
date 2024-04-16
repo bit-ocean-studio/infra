@@ -4,28 +4,6 @@ import { getPackages } from './utils'
 
 const commitlintConfig: UserConfig = {
   extends: '@commitlint/config-conventional',
-  rules: {
-    'type-enum': [
-      2,
-      'always',
-      [
-        'build',
-        'chore',
-        'ci',
-        'deps',
-        'docs',
-        'feat',
-        'fix',
-        'i18n',
-        'perf',
-        'refactor',
-        'release',
-        'revert',
-        'style',
-        'test'
-      ]
-    ]
-  },
   prompt: {
     alias: {
       fd: 'docs: fix typos'
@@ -56,9 +34,9 @@ const commitlintConfig: UserConfig = {
         emoji: ':bug:'
       },
       {
-        value: 'refactor',
-        name: 'refactor:  ♻️  代码重构 | A code change that neither fixes a bug nor adds a feature.',
-        emoji: ':recycle:'
+        value: 'docs',
+        name: 'docs:      📝 文档更新 | Documentation only changes.',
+        emoji: ':memo:'
       },
       {
         value: 'style',
@@ -66,14 +44,9 @@ const commitlintConfig: UserConfig = {
         emoji: ':lipstick:'
       },
       {
-        value: 'docs',
-        name: 'docs:      📝 文档更新 | Documentation only changes.',
-        emoji: ':memo:'
-      },
-      {
-        value: 'test',
-        name: 'test:      ✅ 测试相关 | Adding missing tests or correcting existing tests.',
-        emoji: ':white_check_mark:'
+        value: 'refactor',
+        name: 'refactor:  ♻️  代码重构 | A code change that neither fixes a bug nor adds a feature.',
+        emoji: ':recycle:'
       },
       {
         value: 'perf',
@@ -81,14 +54,9 @@ const commitlintConfig: UserConfig = {
         emoji: ':zap:'
       },
       {
-        value: 'i18n',
-        name: 'i18n:      🌐 翻译更新 | Internationalization only changes.',
-        emoji: ':globe_with_meridians:'
-      },
-      {
-        value: 'revert',
-        name: 'revert:    ⏪️ 回退代码 | Revert to a commit.',
-        emoji: ':rewind:'
+        value: 'test',
+        name: 'test:      ✅ 测试相关 | Adding missing tests or correcting existing tests.',
+        emoji: ':white_check_mark:'
       },
       {
         value: 'build',
@@ -101,14 +69,9 @@ const commitlintConfig: UserConfig = {
         emoji: ':ferris_wheel:'
       },
       {
-        value: 'release',
-        name: 'release:   🏷️  发布版本 | Release a new version.',
-        emoji: ':bookmark:'
-      },
-      {
-        value: 'deps',
-        name: 'deps:      🚀 依赖升级 | Dependencies upgrades.',
-        emoji: ':rocket:'
+        value: 'revert',
+        name: 'revert:    ⏪️ 回退代码 | Revert to a commit.',
+        emoji: ':rewind:'
       },
       {
         value: 'chore',

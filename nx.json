@@ -46,20 +46,17 @@
     "releaseTagPattern": "{version}",
     "conventionalCommits": {
       "types": {
-        "build": true,
-        "chore": true,
-        "ci": true,
-        "deps": true,
-        "docs": true,
         "feat": true,
         "fix": true,
-        "i18n": true,
-        "perf": true,
-        "refactor": true,
-        "release": true,
-        "revert": true,
+        "docs": true,
         "style": true,
-        "test": true
+        "refactor": true,
+        "perf": true,
+        "test": true,
+        "build": true,
+        "ci": true,
+        "revert": true,
+        "chore": true
       }
     },
     "version": {

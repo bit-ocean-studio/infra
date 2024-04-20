@@ -1,4 +1,7 @@
 {
   "extends": "@bit-ocean/tsconfig/base",
+  "compilerOptions": {
+    "target": "ESNext"
+  },
   "include": ["scripts"]
 }

@@ -1,9 +1,17 @@
 {
   "name": "docs",
+  "description": "Documentation site for Bit Ocean.",
+  "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
+  "homepage": "https://github.com/bit-ocean-studio/infra#readme",
+  "bugs": "https://github.com/bit-ocean-studio/infra/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bit-ocean-studio/infra.git",
+    "directory": "apps/docs"
+  },
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
@@ -14,11 +22,11 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.21.4",
-    "astro": "^4.5.16",
+    "@astrojs/starlight": "^0.21.5",
+    "astro": "^4.6.3",
     "sharp": "^0.33.3",
     "@astrojs/check": "^0.5.10",
-    "typescript": "^5.4.4"
+    "typescript": "^5.4.5"
   },
   "private": true,
   "license": "MIT"

@@ -84,7 +84,7 @@ const commitlintConfig: UserConfig = {
     useAI: false,
     aiNumber: 1,
     themeColorCode: '',
-    scopes: [...getPackages('app'), ...getPackages('packages')],
+    scopes: [...getPackages('apps'), ...getPackages('packages')],
     enableMultipleScopes: true,
     scopeEnumSeparator: ',',
     allowCustomScopes: true,

@@ -6,7 +6,7 @@
     "build:packages": "pnpm nx run-many -t build -p @bit-ocean/* --verbose",
     "lint:check": "pnpm nx run-many -t type:check cspell:check eslint:check prettier:check --all --parallel=10",
     "type:check": "pnpm nx run-many -t type:check --all",
-    "cspell:sort:dicts": "pnpm --filter @bit-ocean/cspell sort:dicts",
+    "cspell:sort:dicts": "pnpm bo cspell:sort:dicts",
     "cspell:check": "pnpm nx run-many -t cspell:check --all",
     "eslint:check": "pnpm nx run-many -t eslint:check --all",
     "eslint:fix": "pnpm nx run-many -t eslint:fix --all",
@@ -25,6 +25,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@bit-ocean/cli": "workspace:^",
     "@bit-ocean/commitlint-config": "workspace:^",
     "@bit-ocean/cspell": "workspace:^",
     "@bit-ocean/eslint-config": "workspace:^",
@@ -55,6 +56,7 @@
     "sass": "^1.75.0",
     "tslib": "^2.6.2",
     "tsup": "^8.0.2",
+    "type-fest": "^4.15.0",
     "typescript": "~5.3.3",
     "vite": "^5.2.9",
     "vitest": "^1.5.0"

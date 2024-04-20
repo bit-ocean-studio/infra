@@ -3,6 +3,7 @@
 > 🚀 Built reliable infrastructure for Bit Ocean.
 
 ![npm](https://img.shields.io/npm/v/@bit-ocean/axios?logo=commitlint&label=axios)
+![npm](https://img.shields.io/npm/v/@bit-ocean/cli?logo=gnubash&label=cli)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/commitlint-config?logo=commitlint&label=commitlint-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/config?logo=prettier&label=config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/cspell?logo=npm&label=cspell)
@@ -13,6 +14,7 @@
 ## Packages
 
 - [`auto-import`](/packages/auto-import/README.md): Universal auto-import configuration.
+- [`cli`](/packages/cli/README.md): Universal CLI.
 - [`axios`](/packages/axios/README.md): Universal Axios instance.
 - [`bootstrap`](/packages/bootstrap/README.md): Bootstrap scripts.
 - [`commitlint-config`](/packages/commitlint-config/README.md): Universal Commitlint configuration.

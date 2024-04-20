@@ -38,6 +38,7 @@ Add `cspell` script to your `package.json`:
 ```json
 {
   "scripts": {
+    "cspell:sort:dicts": "pnpm bo cspell:sort:dicts",
     "cspell:check": "cspell --no-progress --show-suggestion --show-context --cache **"
   }
 }

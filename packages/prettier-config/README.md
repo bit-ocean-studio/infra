@@ -14,7 +14,7 @@ pnpm add -D prettier @bit-ocean/prettier-config
 
 ## Configuration
 
-Create a `.prettierrc.json` file in the root of your project and add the following:
+Create a `.prettierrc` file in the root of your project and add the following:
 
 ```json
 "@bit-ocean/prettier-config"
@@ -39,6 +39,17 @@ Use Astro:
 ```json
 {
   "prettier": "@bit-ocean/prettier-config/astro"
+}
+```
+
+Add the `prettier` scripts to your `package.json`:
+
+```json
+{
+  "scripts": {
+    "prettier:check": "prettier --check --cache --ignore-unknown .",
+    "prettier:fix": "prettier --write --cache --ignore-unknown ."
+  }
 }
 ```
 

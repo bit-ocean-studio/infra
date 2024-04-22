@@ -3,6 +3,7 @@ antd
 arrowParens
 astro
 astrojs
+Cascader
 clsx
 cocoapods
 cssinjs

@@ -10,7 +10,7 @@ async function sortFile(filePath: string) {
       .readFileSync(filePath, 'utf-8')
       .split('\n')
       .filter((value, index, array) => value && array.indexOf(value) === index)
-      .sort()
+      .sort((a, b) => a.toLocaleLowerCase().localeCompare(b.toLocaleLowerCase()))
     fs.writeFileSync(filePath, words.join('\n'))
     stdout.write(`Sorted ${filePath}\n`)
   } catch (e) {

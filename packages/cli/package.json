@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/cli",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "Universal CLI.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -37,7 +37,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "dependencies": {
-    "@bit-ocean/config": "0.0.18",
+    "@bit-ocean/config": "workspace:^",
     "commander": "^12.0.0",
     "cross-fetch": "^4.0.0",
     "cross-spawn": "^7.0.3",

@@ -8,9 +8,18 @@ This package provides a universal CLI for all our projects.
 
 ## Installation
 
+### Global
+
 ```bash
 pnpm add -g @bit-ocean/cli
 bo -v
+```
+
+### Project
+
+```bash
+pnpm add -D @bit-ocean/cli
+npx bo -v
 ```
 
 ## Usage

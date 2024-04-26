@@ -9,6 +9,7 @@
 ![npm](https://img.shields.io/npm/v/@bit-ocean/cspell?logo=npm&label=cspell)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/eslint-config?logo=eslint&label=eslint-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/prettier-config?logo=prettier&label=prettier-config)
+![npm](https://img.shields.io/npm/v/@bit-ocean/renovate-config?logo=renovatebot&label=renovate-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/tsconfig?logo=typescript&label=tsconfig)
 
 ## Packages
@@ -28,6 +29,7 @@
 - [`tanstack-query`](/packages/tanstack-query/README.md): Universal Tanstack Query instance and plugins.
 - [`theme`](/packages/theme/README.md): Universal theme configuration.
 - [`tsconfig`](/packages/tsconfig/README.md): Universal tsconfig for TypeScript projects.
+- [`renovate-config`](/packages/renovate-config/README.md): Universal Renovate configuration.
 - [`utils`](/packages/utils/README.md): Utility functions, types.
 
 ## License

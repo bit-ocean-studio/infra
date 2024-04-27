@@ -1,6 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
-import { stdout } from 'node:process'
+
+import { Logger } from '@/utils'
 
 const DICTS_DIR = 'packages/cspell/dicts'
 
@@ -12,9 +13,9 @@ async function sortFile(filePath: string) {
       .filter((value, index, array) => value && array.indexOf(value) === index)
       .sort((a, b) => a.toLocaleLowerCase().localeCompare(b.toLocaleLowerCase()))
     fs.writeFileSync(filePath, words.join('\n'))
-    stdout.write(`Sorted ${filePath}\n`)
+    Logger.success(`Sorted ${filePath}`)
   } catch (e) {
-    stdout.write(`Error sorting ${filePath}: ${(e as Error).message}\n`)
+    Logger.error(`Error sorting ${filePath}: ${(e as Error).message}`)
   }
 }
 

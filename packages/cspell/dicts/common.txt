@@ -3,6 +3,7 @@ antd
 arrowParens
 astro
 astrojs
+Avenir
 Cascader
 clsx
 cocoapods

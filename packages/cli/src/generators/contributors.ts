@@ -1,5 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
+import { exit } from 'node:process'
 
 import fetch from 'cross-fetch'
 
@@ -151,7 +152,7 @@ function writeTable(contributors: User[], perLine = 5): void {
   fs.writeFileSync(path.join(process.cwd(), 'CONTRIBUTORS.md'), lines.join('\n'))
 }
 
-async function main(): Promise<void> {
+async function main() {
   const githubContributors: Contributor[] = []
 
   // eslint-disable-next-line no-restricted-syntax
@@ -184,5 +185,5 @@ export const generateContributors = () =>
     .catch((error) => {
       Logger.error('Generate contributors failed!')
       Logger.info(error)
-      process.exitCode = 1
+      exit(1)
     })

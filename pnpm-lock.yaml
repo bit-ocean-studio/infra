@@ -289,6 +289,28 @@ importers:
         specifier: ^5.0.0
         version: 5.4.5
 
+  playgrounds/react:
+    dependencies:
+      react:
+        specifier: ^18.3.1
+        version: 18.3.1
+      react-dom:
+        specifier: ^18.3.1
+        version: 18.3.1(react@18.3.1)
+    devDependencies:
+      '@types/react':
+        specifier: ^18.3.1
+        version: 18.3.1
+      '@types/react-dom':
+        specifier: ^18.3.0
+        version: 18.3.0
+      '@vitejs/plugin-react-swc':
+        specifier: ^3.6.0
+        version: 3.6.0(@swc/helpers@0.5.5)(vite@5.2.10(@types/node@20.12.7)(sass@1.75.0))
+      vite:
+        specifier: ^5.2.10
+        version: 5.2.10(@types/node@20.12.7)(sass@1.75.0)
+
 packages:
 
   '@aashutoshrathi/word-wrap@1.2.6':
@@ -2463,6 +2485,11 @@ packages:
 
   '@ungap/structured-clone@1.2.0':
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
+
+  '@vitejs/plugin-react-swc@3.6.0':
+    resolution: {integrity: sha512-XFRbsGgpGxGzEV5i5+vRiro1bwcIaZDIdBRP16qwm+jP68ue/S8FJTBEgOeojtVDYrbSua3XFp71kC8VJE6v+g==}
+    peerDependencies:
+      vite: ^4 || ^5
 
   '@vitest/browser@1.5.2':
     resolution: {integrity: sha512-9XuSvOQBvupBOCtMHtWULGlIw53Lusbnr/Owil7yIJ8bID+xo/xz0KLaVGnKCJVhPrv3CtacrmC0on8erXoZ3g==}
@@ -9150,6 +9177,13 @@ snapshots:
       eslint-visitor-keys: 3.4.3
 
   '@ungap/structured-clone@1.2.0': {}
+
+  '@vitejs/plugin-react-swc@3.6.0(@swc/helpers@0.5.5)(vite@5.2.10(@types/node@20.12.7)(sass@1.75.0))':
+    dependencies:
+      '@swc/core': 1.5.2(@swc/helpers@0.5.5)
+      vite: 5.2.10(@types/node@20.12.7)(sass@1.75.0)
+    transitivePeerDependencies:
+      - '@swc/helpers'
 
   '@vitest/browser@1.5.2(vitest@1.5.2)':
     dependencies:

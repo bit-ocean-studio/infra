@@ -12,9 +12,7 @@ export function readGitRepo() {
     throw Error('remote.origin.url not found!')
   }
 
-  const remoteUrl = remoteUrlMatch[1]
-  const regex = /github\.com\/([^/]+)\/([^/]+)\.git/
-  const match = remoteUrl.match(regex)
+  const match = remoteUrlMatch[1].match(/github\.com\/([^/]+)\/([^/]+)\.git/)
 
   if (!match || match.length < 3) {
     throw Error('Invalid git remote url')
@@ -22,8 +20,5 @@ export function readGitRepo() {
 
   const [, org, repo] = match
 
-  return {
-    org,
-    repo
-  }
+  return { org, repo }
 }

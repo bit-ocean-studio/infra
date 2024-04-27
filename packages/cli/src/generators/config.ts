@@ -10,7 +10,7 @@ import { Logger } from '@/utils'
 export const generateConfig = async (data: GlobalConfig) => {
   const sourceDir = path.resolve(
     path.dirname(fileURLToPath(import.meta.url)),
-    '../assets/bit-ocean.config.hbs'
+    '../assets/engineering/bit-ocean.config.hbs'
   )
   const targetDir = path.resolve(process.cwd(), 'bit-ocean.config.js')
 
@@ -22,6 +22,6 @@ export const generateConfig = async (data: GlobalConfig) => {
     fs.writeFileSync(targetDir, renderedContent)
     Logger.success('bit-ocean.config.js has been created!')
   } catch (err) {
-    console.log(err)
+    Logger.error(`${err}`)
   }
 }

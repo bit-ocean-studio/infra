@@ -1,3 +1,4 @@
+export * from './is-monorepo'
 export * from './logger'
 export * from './read-git-repo'
 export * from './read-global-config'

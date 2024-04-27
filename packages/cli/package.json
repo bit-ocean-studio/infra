@@ -19,6 +19,7 @@
     "bo": "bin/index.js"
   },
   "files": [
+    "assets",
     "bin",
     "dist"
   ],
@@ -41,6 +42,7 @@
     "commander": "^12.0.0",
     "cross-fetch": "^4.0.0",
     "cross-spawn": "^7.0.3",
+    "handlebars": "4.7.8",
     "kolorist": "^1.8.0",
     "prompts": "^2.4.2"
   },

@@ -2,6 +2,7 @@
 
 > 🚀 Built reliable infrastructure for Bit Ocean.
 
+![npm](https://img.shields.io/npm/v/@bit-ocean/auto-import?logo=typescript&label=auto-import)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/axios?logo=commitlint&label=axios)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/cli?logo=gnubash&label=cli)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/commitlint-config?logo=commitlint&label=commitlint-config)

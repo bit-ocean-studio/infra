@@ -59,7 +59,7 @@ importers:
         version: 1.5.2(@swc/helpers@0.5.5)
       '@types/bun':
         specifier: ^1.1.0
-        version: 1.1.0
+        version: 1.1.1
       '@types/node':
         specifier: ^20.12.7
         version: 20.12.7
@@ -2287,8 +2287,8 @@ packages:
   '@types/babel__traverse@7.20.5':
     resolution: {integrity: sha512-WXCyOcRtH37HAUkpXhUduaxdm82b4GSlyTqajXviN4EfiuPgNYR109xMCKvpl6zPIpua0DGlMEDCq+g8EdoheQ==}
 
-  '@types/bun@1.1.0':
-    resolution: {integrity: sha512-QGK0yU4jh0OK1A7DyhPkQuKjHQCC5jSJa3dpWIEhHv/rPfb6zLfdArc4/uUUZBMTcjilsafRXnPWO+1owb572Q==}
+  '@types/bun@1.1.1':
+    resolution: {integrity: sha512-lUe9rLMhgDCViciZtgDj5CMl2u7uTq/IP149kSZH/Si6FWkCioximABFf+baRQgbm8QlH4bzT0qJRteQFNqeGA==}
 
   '@types/conventional-commits-parser@5.0.0':
     resolution: {integrity: sha512-loB369iXNmAZglwWATL+WRe+CRMmmBPtpolYzIebFaX4YA3x+BEfLqhUAV9WanycKI3TG1IMr5bMJDajDKLlUQ==}
@@ -2878,8 +2878,8 @@ packages:
   builtins@5.1.0:
     resolution: {integrity: sha512-SW9lzGTLvWTP1AY8xeAMZimqDrIaSdLQUcVr9DMef51niJ022Ri87SwRRKYm4A6iHfkPaiVUu/Duw2Wc4J7kKg==}
 
-  bun-types@1.1.0:
-    resolution: {integrity: sha512-GhMDD7TosdJzQPGUOcQD5PZshvXVxDfwGAZs2dq+eSaPsRn3iUCzvpFlsg7Q51bXVzLAUs+FWHlnmpgZ5UggIg==}
+  bun-types@1.1.6:
+    resolution: {integrity: sha512-LK2aaJdBBTUkDyN+kRiJHLF3VGrAcdkEHrbBvbmTkccShPw6ZalxxKjWSBJwn4UkikhZdrdA87bZWmfUgkRUYg==}
 
   bun@1.1.6:
     resolution: {integrity: sha512-0oKx5dVZ8LpsAvXdW2DTR5Zt3KS81Ifjx9T2ma7RjDPKbvGIlDXOPt++tr1SndxhFNFsMFeE4i6VKvlL7IR0Zw==}
@@ -8930,9 +8930,9 @@ snapshots:
     dependencies:
       '@babel/types': 7.24.0
 
-  '@types/bun@1.1.0':
+  '@types/bun@1.1.1':
     dependencies:
-      bun-types: 1.1.0
+      bun-types: 1.1.6
 
   '@types/conventional-commits-parser@5.0.0':
     dependencies:
@@ -9029,7 +9029,7 @@ snapshots:
 
   '@types/sax@1.2.7':
     dependencies:
-      '@types/node': 20.12.7
+      '@types/node': 17.0.45
 
   '@types/semver@7.5.8': {}
 
@@ -9773,7 +9773,7 @@ snapshots:
     dependencies:
       semver: 7.6.0
 
-  bun-types@1.1.0:
+  bun-types@1.1.6:
     dependencies:
       '@types/node': 20.11.30
       '@types/ws': 8.5.10

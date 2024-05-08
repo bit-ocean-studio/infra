@@ -25,6 +25,7 @@ svgr
 tauri
 tsbuildinfo
 tsup
+unimport
 unplugin
 webp
 zustand

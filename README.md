@@ -15,7 +15,7 @@
 
 ## Packages
 
-- [`auto-import`](/packages/auto-import/README.md): Universal auto-import configuration.
+- [`auto-import`](/packages/auto-import/README.md): Universal auto-import module.
 - [`cli`](/packages/cli/README.md): Universal CLI.
 - [`axios`](/packages/axios/README.md): Universal Axios instance.
 - [`bootstrap`](/packages/bootstrap/README.md): Bootstrap scripts.

@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/@bit-ocean/auto-import?logo=typescript&label=auto-import)
 
-> Universal auto-import configuration.
+> Universal auto-import module.
 
 This package provides some universal auto-import presets and resolvers for all our projects.
 
@@ -55,7 +55,6 @@ const nextConfig = {
     return config
   }
 }
-
 module.exports = nextConfig
 ```
 

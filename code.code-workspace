@@ -1,0 +1,133 @@
+{
+  "folders": [
+    {
+      "name": "✨ @bit-ocean/infra",
+      "path": "bit-ocean-infra"
+    },
+    {
+      "name": "🚀 docs",
+      "path": "bit-ocean-infra/apps/docs"
+    },
+    {
+      "name": "📦 @bit-ocean/axios",
+      "path": "bit-ocean-infra/packages/axios"
+    },
+    {
+      "name": "📦 @bit-ocean/cli",
+      "path": "bit-ocean-infra/packages/cli"
+    },
+    {
+      "name": "📦 @bit-ocean/commitlint-config",
+      "path": "bit-ocean-infra/packages/commitlint-config"
+    },
+    {
+      "name": "📦 @bit-ocean/config",
+      "path": "bit-ocean-infra/packages/config"
+    },
+    {
+      "name": "📦 @bit-ocean/cspell",
+      "path": "bit-ocean-infra/packages/cspell"
+    },
+    {
+      "name": "📦 @bit-ocean/eslint-config",
+      "path": "bit-ocean-infra/packages/eslint-config"
+    },
+    {
+      "name": "📦 @bit-ocean/prettier-config",
+      "path": "bit-ocean-infra/packages/prettier-config"
+    },
+    {
+      "name": "📦 @bit-ocean/renovate-config",
+      "path": "bit-ocean-infra/packages/renovate-config"
+    },
+    {
+      "name": "📦 @bit-ocean/tsconfig",
+      "path": "bit-ocean-infra/packages/tsconfig"
+    },
+    {
+      "name": "🔪 react-playground",
+      "path": "bit-ocean-infra/playgrounds/react"
+    },
+    {
+      "name": "vscode-settings",
+      "path": "vscode-settings"
+    },
+    {
+      "name": "vscode-extension-pack",
+      "path": "vscode-extension-pack"
+    },
+    {
+      "name": "recallwei",
+      "path": "recallwei"
+    },
+    {
+      "name": "web-dev-handbook",
+      "path": "web-dev-handbook"
+    },
+    {
+      "name": "use",
+      "path": "use"
+    },
+    {
+      "name": "link",
+      "path": "link"
+    },
+    {
+      "name": "design-patterns",
+      "path": "design-patterns"
+    },
+    {
+      "name": "resume",
+      "path": "resume"
+    },
+    {
+      "name": "interview",
+      "path": "interview"
+    },
+    {
+      "name": "dolphin-admin-react-admin",
+      "path": "dolphin-admin-react-admin"
+    },
+    {
+      "name": "dolphin-admin-nest-api",
+      "path": "dolphin-admin-nest-api"
+    },
+    {
+      "name": "dolphin-admin-assets",
+      "path": "dolphin-admin-assets"
+    },
+    {
+      "name": "dolphin-admin-internal",
+      "path": "dolphin-admin-internal"
+    },
+    {
+      "name": "✨ taskward",
+      "path": "taskward"
+    },
+    {
+      "name": "📦 @taskward/cspell",
+      "path": "taskward/packages/cspell"
+    },
+    {
+      "name": "taskward-assets",
+      "path": "taskward-assets"
+    },
+    {
+      "name": "taskward-v1-website",
+      "path": "taskward-v1-website"
+    },
+    {
+      "name": "taskward-v1-api",
+      "path": "taskward-v1-api"
+    },
+    {
+      "name": "unplugin-auto-import-antd",
+      "path": "unplugin-auto-import-antd"
+    },
+    {
+      "name": "unplugin-auto-import-ahooks",
+      "path": "unplugin-auto-import-ahooks"
+    }
+  ],
+  "settings": {}
+}

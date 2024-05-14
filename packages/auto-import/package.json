@@ -32,7 +32,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "unplugin-auto-import": "^0.17.5"
+    "unplugin-auto-import": "^0.17.6"
   },
   "dependencies": {
     "unplugin-auto-import-antd": "^0.0.2",

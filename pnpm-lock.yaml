@@ -171,7 +171,7 @@ importers:
         version: link:../config
       commander:
         specifier: ^12.0.0
-        version: 12.0.0
+        version: 12.1.0
       cross-fetch:
         specifier: ^4.0.0
         version: 4.0.0

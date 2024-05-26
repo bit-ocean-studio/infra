@@ -29,3 +29,6 @@ unimport
 unplugin
 webp
 zustand
+tarojs
+weapp
+styl

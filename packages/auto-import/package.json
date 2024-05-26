@@ -39,7 +39,7 @@
     "unplugin-auto-import-ahooks": "^0.0.3"
   },
   "devDependencies": {
-    "unimport": "^3.7.1"
+    "unimport": "^3.7.2"
   },
   "publishConfig": {
     "access": "public"

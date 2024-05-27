@@ -45,7 +45,7 @@ const commitlintConfig: UserConfig = {
       },
       {
         value: 'refactor',
-        name: 'refactor:  ♻️  代码重构 | A code change that neither fixes a bug nor adds a feature.',
+        name: 'refactor:  ♻️ 代码重构 | A code change that neither fixes a bug nor adds a feature.',
         emoji: ':recycle:'
       },
       {

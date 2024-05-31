@@ -92,7 +92,7 @@ importers:
         version: 8.57.0
       happy-dom:
         specifier: ^14.11.0
-        version: 14.11.1
+        version: 14.12.0
       husky:
         specifier: ^9.0.11
         version: 9.0.11
@@ -125,7 +125,7 @@ importers:
         version: 5.2.12(@types/node@20.13.0)(sass@1.77.4)
       vitest:
         specifier: ^1.6.0
-        version: 1.6.0(@types/node@20.13.0)(@vitest/browser@1.6.0)(@vitest/ui@1.6.0)(happy-dom@14.11.1)(sass@1.77.4)
+        version: 1.6.0(@types/node@20.13.0)(@vitest/browser@1.6.0)(@vitest/ui@1.6.0)(happy-dom@14.12.0)(sass@1.77.4)
 
   apps/docs:
     dependencies:
@@ -4759,8 +4759,8 @@ packages:
     engines: {node: '>=0.4.7'}
     hasBin: true
 
-  happy-dom@14.11.1:
-    resolution: {integrity: sha512-JuaGMxD3QlQei6LdAM9mMY9am/cHa978uFbkOpjN5x83DG+QQp/NLyVV4Ru7KOjs70XYZ4KbI0TNiO81nM7uQQ==}
+  happy-dom@14.12.0:
+    resolution: {integrity: sha512-dHcnlGFY2o2CdxfuYpqwSrBrpj/Kuzv4u4f3TU5yHW1GL24dKij4pv1BRjXnXc3uWo8qsCbToF9weaDsm/He8A==}
     engines: {node: '>=16.0.0'}
 
   hard-rejection@2.1.0:
@@ -10833,7 +10833,7 @@ snapshots:
       '@vitest/utils': 1.6.0
       magic-string: 0.30.10
       sirv: 2.0.4
-      vitest: 1.6.0(@types/node@20.13.0)(@vitest/browser@1.6.0)(@vitest/ui@1.6.0)(happy-dom@14.11.1)(sass@1.77.4)
+      vitest: 1.6.0(@types/node@20.13.0)(@vitest/browser@1.6.0)(@vitest/ui@1.6.0)(happy-dom@14.12.0)(sass@1.77.4)
 
   '@vitest/expect@1.6.0':
     dependencies:
@@ -10866,7 +10866,7 @@ snapshots:
       pathe: 1.1.2
       picocolors: 1.0.0
       sirv: 2.0.4
-      vitest: 1.6.0(@types/node@20.13.0)(@vitest/browser@1.6.0)(@vitest/ui@1.6.0)(happy-dom@14.11.1)(sass@1.77.4)
+      vitest: 1.6.0(@types/node@20.13.0)(@vitest/browser@1.6.0)(@vitest/ui@1.6.0)(happy-dom@14.12.0)(sass@1.77.4)
 
   '@vitest/utils@1.6.0':
     dependencies:
@@ -13035,7 +13035,7 @@ snapshots:
     optionalDependencies:
       uglify-js: 3.17.4
 
-  happy-dom@14.11.1:
+  happy-dom@14.12.0:
     dependencies:
       entities: 4.5.0
       webidl-conversions: 7.0.0
@@ -16491,7 +16491,7 @@ snapshots:
     optionalDependencies:
       vite: 5.2.11(@types/node@20.13.0)(sass@1.77.4)
 
-  vitest@1.6.0(@types/node@20.13.0)(@vitest/browser@1.6.0)(@vitest/ui@1.6.0)(happy-dom@14.11.1)(sass@1.77.4):
+  vitest@1.6.0(@types/node@20.13.0)(@vitest/browser@1.6.0)(@vitest/ui@1.6.0)(happy-dom@14.12.0)(sass@1.77.4):
     dependencies:
       '@vitest/expect': 1.6.0
       '@vitest/runner': 1.6.0
@@ -16517,7 +16517,7 @@ snapshots:
       '@types/node': 20.13.0
       '@vitest/browser': 1.6.0(vitest@1.6.0)
       '@vitest/ui': 1.6.0(vitest@1.6.0)
-      happy-dom: 14.11.1
+      happy-dom: 14.12.0
     transitivePeerDependencies:
       - less
       - lightningcss

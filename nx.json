@@ -23,7 +23,15 @@
     "default": {
       "runner": "nx/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build"]
+        "cacheableOperations": [
+          "build",
+          "type:check",
+          "cspell:check",
+          "eslint:check",
+          "eslint:fix",
+          "prettier:check",
+          "prettier:fix"
+        ]
       }
     }
   },

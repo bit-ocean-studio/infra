@@ -6,7 +6,6 @@
     "build:packages": "pnpm nx run-many -t build -p @bit-ocean/* --verbose",
     "lint:check": "pnpm nx run-many -t type:check cspell:check eslint:check prettier:check --all --parallel=10",
     "type:check": "pnpm nx run-many -t type:check --all",
-    "cspell:sort:dicts": "pnpm bo cspell:sort:dicts",
     "cspell:check": "pnpm nx run-many -t cspell:check --all",
     "eslint:check": "pnpm nx run-many -t eslint:check --all",
     "eslint:fix": "pnpm nx run-many -t eslint:fix --all",
@@ -16,6 +15,7 @@
     "release:version": "pnpm nx release version",
     "release:changelog": "pnpm nx release changelog",
     "release:publish": "pnpm nx release publish",
+    "bo:cspell": "pnpm bo cspell",
     "cz": "git-cz",
     "prepare": "husky"
   },

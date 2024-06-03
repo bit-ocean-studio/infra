@@ -37,7 +37,9 @@
   },
   "targetDefaults": {
     "build": {
-      "inputs": ["noMarkdown", "^noMarkdown"]
+      "dependsOn": ["^build"],
+      "inputs": ["noMarkdown", "^noMarkdown"],
+      "cache": true
     },
     "@nx/eslint:lint": {
       "cache": true,
@@ -76,7 +78,12 @@
     "changelog": {
       "workspaceChangelog": {
         "file": false,
-        "createRelease": "github"
+        "createRelease": "github",
+        "renderOptions": {
+          "authors": true,
+          "commitReferences": true,
+          "versionTitleDate": true
+        }
       }
     }
   }

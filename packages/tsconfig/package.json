@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/tsconfig",
-  "version": "0.0.20",
+  "version": "0.0.21",
   "description": "Universal tsconfig for TypeScript projects.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",

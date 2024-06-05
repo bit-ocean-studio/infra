@@ -1,5 +1,5 @@
 {
-  "name": "@bit-ocean/docs",
+  "name": "docs",
   "description": "Documentation site for Bit Ocean.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -22,8 +22,8 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.23.2",
-    "astro": "^4.9.2",
+    "@astrojs/starlight": "^0.23.4",
+    "astro": "^4.9.3",
     "sharp": "^0.33.4",
     "@astrojs/check": "^0.7.0"
   },

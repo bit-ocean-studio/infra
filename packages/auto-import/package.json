@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/auto-import",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "Universal auto-import module.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",

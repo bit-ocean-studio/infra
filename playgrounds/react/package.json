@@ -1,5 +1,5 @@
 {
-  "name": "@bit-ocean/react-playground",
+  "name": "react-playground",
   "description": "React playground for Bit Ocean.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -28,7 +28,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.7.0",
-    "vite": "^5.2.11"
+    "vite": "^5.2.12"
   },
   "private": true,
   "license": "MIT"

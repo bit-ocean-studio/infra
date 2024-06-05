@@ -1,6 +1,7 @@
 ahooks
 antd
 arrowParens
+arta
 astro
 astrojs
 Avenir
@@ -16,9 +17,11 @@ icns
 iconify
 immer
 kolorist
+monokai
 nestjs
 neue
 nocheck
+nord
 noto
 qrcode
 roboto

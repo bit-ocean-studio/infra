@@ -60,13 +60,14 @@
     "eslint-plugin-react-native": "^4.1.0",
     "eslint-plugin-react-refresh": "^0.4.7",
     "eslint-plugin-simple-import-sort": "^12.1.0",
-    "eslint-plugin-tailwindcss": "^3.17.0",
+    "eslint-plugin-tailwindcss": "^3.17.1",
     "eslint-plugin-unused-imports": "^4.0.0",
     "eslint-plugin-vue": "^9.26.0",
     "vue-eslint-parser": "^9.4.3"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.10"
+    "@types/eslint": "^8.56.10",
+    "eslint-config-next": "^14.2.3"
   },
   "publishConfig": {
     "access": "public"

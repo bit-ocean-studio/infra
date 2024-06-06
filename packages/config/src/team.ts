@@ -1,7 +1,7 @@
 import type { TeamConfig } from './types'
 
 export const teamConfig = Object.freeze<Readonly<TeamConfig>>({
-  teamName: 'Bit Ocean',
-  githubURL: 'https://github.com/bit-ocean-studio',
-  websiteURL: 'https://www.bit-ocean.studio'
+  TEAM_NAME: 'Bit Ocean',
+  GITHUB_URL: 'https://github.com/bit-ocean-studio',
+  WEBSITE_URL: 'https://www.bit-ocean.studio'
 })

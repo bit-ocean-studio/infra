@@ -3,15 +3,15 @@ export interface TeamConfig {
    * The name of the team.
    * @default 'Bit Ocean'
    */
-  teamName: string
+  TEAM_NAME: string
   /**
    * The URL of the team's GitHub organization.
    * @default 'https://github.com/bit-ocean-studio'
    */
-  githubURL: string
+  GITHUB_URL: string
   /**
    * The URL of the team's website.
    * @default 'https://www.bit-ocean.studio'
    */
-  websiteURL: string
+  WEBSITE_URL: string
 }

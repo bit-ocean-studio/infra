@@ -42,7 +42,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "prettier": "^3.3.0"
+    "prettier": "^3.3.1"
   },
   "dependencies": {
     "prettier-plugin-astro": "^0.14.0",

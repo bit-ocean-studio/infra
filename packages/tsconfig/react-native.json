@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "React Native",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ES2015",
+    "types": ["react-native", "jest"],
+    "lib": [
+      "ES2019",
+      "ES2020.BigInt",
+      "ES2020.Date",
+      "ES2020.Number",
+      "ES2020.Promise",
+      "ES2020.String",
+      "ES2020.Symbol.WellKnown",
+      "ES2021.Promise",
+      "ES2021.String",
+      "ES2021.WeakRef",
+      "ES2022.Array",
+      "ES2022.Object",
+      "ES2022.String"
+    ],
+    "allowJs": true,
+    "jsx": "react-native",
+    "moduleResolution": "Bundler",
+    "customConditions": ["react-native"],
+    "allowArbitraryExtensions": true,
+    "resolvePackageJsonImports": false,
+    "forceConsistentCasingInFileNames": false
+  },
+  "exclude": ["**/Pods/**"]
+}

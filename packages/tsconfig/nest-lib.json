@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "Nest.js Lib",
+  "extends": "./nest.json",
+  "compilerOptions": {
+    "incremental": false
+  }
+}

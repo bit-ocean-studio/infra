@@ -30,14 +30,12 @@
       "labels": [
         "Dependencies"
       ],
-      "lockFileMaintenance": {
-        "enabled": false
-      },
+      "updateLockFiles": false,
       "semanticCommits": "enabled",
       "dependencyDashboard": true,
       "packageRules": [
         {
-          "depTypeList": [
+          "matchDepTypes": [
             "devDependencies"
           ],
           "automerge": true

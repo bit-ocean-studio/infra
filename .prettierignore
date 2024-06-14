@@ -1,6 +1,7 @@
 dist
 coverage
 .nx/cache
+.nx/workspace-data
 node_modules
 pnpm-lock.yaml
 .husky

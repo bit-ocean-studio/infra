@@ -42,11 +42,11 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "prettier": "^3.3.1"
+    "prettier": "^3.3.2"
   },
   "dependencies": {
     "prettier-plugin-astro": "^0.14.0",
-    "prettier-plugin-tailwindcss": "^0.6.1"
+    "prettier-plugin-tailwindcss": "^0.6.4"
   },
   "publishConfig": {
     "access": "public"

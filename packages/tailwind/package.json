@@ -1,39 +1,28 @@
 {
-  "name": "@bit-ocean/prettier-config",
+  "name": "@bit-ocean/tailwind",
   "version": "0.0.28",
-  "description": "Universal Prettier configuration.",
+  "description": "Universal Tailwind CSS configuration.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
   "bugs": "https://github.com/bit-ocean-studio/infra/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/bit-ocean-studio/infra.git",
-    "directory": "packages/prettier-config"
+    "directory": "packages/tailwind"
   },
   "keywords": [
     "bit-ocean",
     "bit-ocean-infra",
-    "prettier",
-    "prettier-config"
+    "tailwind",
+    "tailwind-config"
   ],
   "files": [
-    "dist"
+    "tailwind.config.ts"
   ],
   "exports": {
-    ".": {
-      "import": "./dist/base.mjs",
-      "require": "./dist/base.js",
-      "types": "./dist/base.d.ts"
-    },
-    "./*": {
-      "import": "./dist/*.mjs",
-      "require": "./dist/*.js",
-      "types": "./dist/*.d.ts"
-    }
+    ".": "./tailwind.config.ts"
   },
   "scripts": {
-    "dev": "tsup --watch",
-    "build": "tsup",
     "type:check": "tsc --pretty --noEmit",
     "cspell:check": "cspell --no-progress --show-suggestions --show-context --cache **",
     "eslint:check": "eslint . --color --cache",
@@ -42,11 +31,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "prettier": "^3.3.2"
-  },
-  "dependencies": {
-    "prettier-plugin-astro": "^0.14.0",
-    "prettier-plugin-tailwindcss": "^0.6.5"
+    "tailwindcss": "^3.4.4"
   },
   "publishConfig": {
     "access": "public"

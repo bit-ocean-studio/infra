@@ -4,8 +4,10 @@ import { Logger, readGitRepo } from '@/utils'
 
 import { generateConfig } from './config'
 import { generateContributors } from './contributors'
+import { generateMonorepoLib } from './monorepo-lib'
 
 enum ActionChoice {
+  MONOREPO_LIB,
   CONFIG,
   CONTRIBUTORS
 }
@@ -19,6 +21,11 @@ export const g = async () => {
       message: 'Select a generator:',
       choices: [
         {
+          title: 'Monorepo Lib',
+          value: ActionChoice.MONOREPO_LIB,
+          description: 'Generate a monorepo lib.'
+        },
+        {
           title: 'Config',
           value: ActionChoice.CONFIG,
           description: 'Generate bit-ocean.config.js.'
@@ -29,6 +36,12 @@ export const g = async () => {
           description: 'Generate CONTRIBUTORS.md.'
         }
       ]
+    },
+    {
+      type: (_, values) => (values.action === ActionChoice.MONOREPO_LIB ? 'text' : null),
+      name: 'name',
+      message: 'Enter the lib name:',
+      initial: 'my-lib'
     },
     {
       type: (_, values) => (values.action === ActionChoice.CONFIG ? 'text' : null),
@@ -44,9 +57,17 @@ export const g = async () => {
     }
   ])
 
-  const { action, org, repo } = response
+  const { action, name, org, repo } = response
 
   switch (action) {
+    case ActionChoice.MONOREPO_LIB:
+      generateMonorepoLib({
+        name,
+        description: '123',
+        repo,
+        org
+      })
+      break
     case ActionChoice.CONFIG:
       generateConfig({ repo, org })
       break

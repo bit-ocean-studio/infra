@@ -11,7 +11,12 @@ export class Logger {
     process.stdout.write(`${bgBlue(` ${globalConfig.name} `)} ${lightGreen(message)}\n`)
   }
 
-  static error(message: string) {
-    process.stdout.write(`${bgBlue(` ${globalConfig.name} `)} ${lightRed(message)}\n`)
+  static error(message: string | Error) {
+    if (message instanceof Error) {
+      // eslint-disable-next-line no-console
+      console.error(message)
+    } else {
+      process.stdout.write(`${bgBlue(` ${globalConfig.name} `)} ${lightRed(message)}\n`)
+    }
   }
 }

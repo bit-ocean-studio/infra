@@ -184,6 +184,6 @@ export const generateContributors = () =>
     .then(() => Logger.success('Generate contributors successfully!'))
     .catch((error) => {
       Logger.error('Generate contributors failed!')
-      Logger.info(error)
+      Logger.error(error)
       exit(1)
     })

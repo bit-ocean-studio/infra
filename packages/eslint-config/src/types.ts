@@ -3,6 +3,7 @@ export interface ConfigBuilderOptions {
   react?: boolean
   vue?: boolean
   astro?: boolean
+  next?: boolean
   reactNative?: boolean
   tailwind?: boolean
 }

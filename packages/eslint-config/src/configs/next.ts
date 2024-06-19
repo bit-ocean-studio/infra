@@ -48,6 +48,7 @@ const nextConfig = new ConfigBuilder(
     }
   },
   {
+    next: true,
     react: true,
     typescript: true,
     tailwind: true

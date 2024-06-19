@@ -1,6 +1,7 @@
 export * from './astro'
 export * from './import'
 export * from './javascript'
+export * from './next'
 export * from './react'
 export * from './react-native'
 export * from './react-refresh'

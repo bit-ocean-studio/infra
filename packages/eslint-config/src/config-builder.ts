@@ -11,6 +11,7 @@ import {
   importRules,
   javascriptOverrides,
   javascriptRules,
+  nextRules,
   reactNativeRules,
   reactRefreshRules,
   reactRules,
@@ -78,7 +79,7 @@ export class ConfigBuilder {
    * Build the rules object
    */
   private buildRules(options?: ConfigBuilderOptions): Linter.RulesRecord {
-    const { typescript, react, reactNative, tailwind, vue } = options ?? {}
+    const { typescript, react, reactNative, next, tailwind, vue } = options ?? {}
     return {
       ...javascriptRules,
       ...unusedImportsRules,
@@ -89,6 +90,7 @@ export class ConfigBuilder {
       ...(react || reactNative
         ? { ...reactRules, ...reactRefreshRules, ...this.disableA11y() }
         : {}),
+      ...(next ? nextRules : {}),
       ...(tailwind ? tailwindRules : {}),
       ...(vue ? vueRules : {})
     }

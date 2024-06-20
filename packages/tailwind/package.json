@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/tailwind",
-  "version": "0.0.29",
+  "version": "0.0.30",
   "description": "Universal Tailwind CSS configuration.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",

@@ -1,0 +1,9 @@
+{
+  "extends": "@bit-ocean/tsconfig/react",
+  "include": ["src", "vite.config.ts", "*.d.ts", "@types"],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}

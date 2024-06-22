@@ -1,0 +1,24 @@
+{
+  "name": "react-vite-ahooks",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build"
+  },
+  "dependencies": {
+    "ahooks": "^3.8.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@bit-ocean/auto-import": "workspace:^",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react-swc": "^3.7.0",
+    "typescript": "^5.4.5",
+    "unplugin-auto-import": "^0.17.6",
+    "vite": "^5.3.1"
+  },
+  "private": true,
+  "license": "MIT"
+}

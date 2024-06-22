@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/auto-import",
-  "version": "0.0.30",
+  "version": "0.0.31",
   "description": "Universal auto-import module.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -13,7 +13,12 @@
   "keywords": [
     "bit-ocean",
     "bit-ocean-infra",
-    "auto-import"
+    "auto-import",
+    "auto-import-resolvers",
+    "unplugin-auto-import",
+    "unplugin-auto-import-ahooks",
+    "unplugin-auto-import-antd",
+    "unplugin-auto-import-antd-pro-components"
   ],
   "files": [
     "dist"
@@ -33,10 +38,6 @@
   },
   "peerDependencies": {
     "unplugin-auto-import": "^0.17.6"
-  },
-  "dependencies": {
-    "unplugin-auto-import-antd": "^0.0.2",
-    "unplugin-auto-import-ahooks": "^0.0.3"
   },
   "devDependencies": {
     "unimport": "^3.7.2"

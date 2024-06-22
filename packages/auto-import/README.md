@@ -1,5 +1,7 @@
 # @bit-ocean/auto-import
 
+English / [简体中文](./README.zh-CN.md)
+
 ![npm](https://img.shields.io/npm/v/@bit-ocean/auto-import?logo=typescript&label=auto-import)
 
 > Universal auto-import module.
@@ -25,12 +27,12 @@ import { reactPresets } from '@bit-ocean/auto-import'
 export default defineConfig({
   plugins: [
     AutoImport({
+      imports: reactPresets,
       dts: '@types/auto-imports.d.ts',
       include: [
         /\.[tj]sx?$/, // .ts, .tsx, .js, .jsx
         /\.md$/ // .md
-      ],
-      imports: reactPresets
+      ]
     })
   ]
 })
@@ -48,7 +50,7 @@ const nextConfig = {
   webpack: (config) => {
     config.plugins.push(
       AutoImport({
-        imports: [...nextPresets],
+        imports: nextPresets,
         dts: '@types/auto-imports.d.ts'
       })
     )

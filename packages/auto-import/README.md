@@ -42,7 +42,7 @@ export default defineConfig({
 
 ```js
 // next.config.js
-const AutoImport = require('unplugin-auto-import/next').default
+const AutoImport = require('unplugin-auto-import/webpack').default
 const { nextPresets } = require('@bit-ocean/auto-import')
 
 /** @type {import('next').NextConfig} */

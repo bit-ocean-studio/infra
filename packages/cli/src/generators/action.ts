@@ -54,6 +54,7 @@ export const g = async () => {
       name: 'packageOrgName',
       message: 'Enter the npm org name:',
       initial: gitRepoInfo.org,
+      // TODO: Not work.
       hint: (_, values) => `Your lib name will be: @${values.packageOrgName}/${values.packageName}`
     },
     {

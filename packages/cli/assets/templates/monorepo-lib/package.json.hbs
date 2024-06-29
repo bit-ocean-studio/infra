@@ -1,18 +1,18 @@
 {
-  "name": "{{ name }}",
+  "name": "@{{ packageOrgName }}/{{ packageName }}",
   "version": "0.0.0",
-  "description": "{{ description }}",
+  "description": "{{ packageDescription }}",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/{{ org }}/{{ repo }}#readme",
   "bugs": "https://github.com/{{ org }}/{{ repo }}/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/{{ org }}/infra.git",
-    "directory": "packages/{{ name }}"
+    "directory": "packages/{{ packageName }}"
   },
   "keywords": [
-    "{{ org }}",
-    "{{ name }}"
+    "{{ packageOrgName }}",
+    "{{ packageName }}"
   ],
   "files": [
     "dist"

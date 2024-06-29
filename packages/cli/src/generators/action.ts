@@ -39,9 +39,28 @@ export const g = async () => {
     },
     {
       type: (_, values) => (values.action === ActionChoice.MONOREPO_LIB ? 'text' : null),
-      name: 'name',
+      name: 'packageName',
       message: 'Enter the lib name:',
       initial: 'my-lib'
+    },
+    {
+      type: (_, values) => (values.action === ActionChoice.MONOREPO_LIB ? 'text' : null),
+      name: 'packageDescription',
+      message: 'Enter the lib description:',
+      initial: 'My lib description.'
+    },
+    {
+      type: (_, values) => (values.action === ActionChoice.MONOREPO_LIB ? 'text' : null),
+      name: 'packageOrgName',
+      message: 'Enter the npm org name:',
+      initial: gitRepoInfo.org,
+      hint: (_, values) => `Your lib name will be: @${values.packageOrgName}/${values.packageName}`
+    },
+    {
+      type: (_, values) => (values.action === ActionChoice.CONFIG ? 'text' : null),
+      name: 'repo',
+      message: 'Enter the GitHub repository name:',
+      initial: gitRepoInfo.repo
     },
     {
       type: (_, values) => (values.action === ActionChoice.CONFIG ? 'text' : null),
@@ -57,13 +76,21 @@ export const g = async () => {
     }
   ])
 
-  const { action, name, org, repo } = response
+  const {
+    action,
+    packageName,
+    packageOrgName,
+    packageDescription,
+    org = gitRepoInfo.org,
+    repo = gitRepoInfo.repo
+  } = response
 
   switch (action) {
     case ActionChoice.MONOREPO_LIB:
       generateMonorepoLib({
-        name,
-        description: '123',
+        packageName,
+        packageOrgName,
+        packageDescription,
         repo,
         org
       })

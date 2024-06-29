@@ -75,9 +75,9 @@ export const bumpBitOceanDeps = async () => {
 }
 
 function getBumpedDepVersion(origin: string, target: string) {
-  // if (isWorkspaceDep(origin)) {
-  //   return origin
-  // }
+  if (isWorkspaceDep(origin)) {
+    return origin
+  }
   if (origin.includes('^')) {
     return `^${target}`
   }
@@ -92,7 +92,7 @@ function isBitOceanDep(dep: string) {
 }
 
 function isWorkspaceDep(version: string) {
-  return !version.includes('workspace:')
+  return version.includes('workspace:')
 }
 
 function isDepLatest(origin: string, target: string) {

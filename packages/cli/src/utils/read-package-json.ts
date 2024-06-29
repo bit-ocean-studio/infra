@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url'
 
 import type { PackageJson } from 'type-fest'
 
-export function readPackageJSON(): PackageJson {
+export function readPackageJson(): PackageJson {
   const packageJsonPath = path.resolve(
     path.dirname(fileURLToPath(import.meta.url)),
     '../package.json'

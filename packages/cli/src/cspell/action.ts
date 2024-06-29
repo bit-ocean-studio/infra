@@ -29,6 +29,6 @@ export const cspell = async () => {
       sortDicts()
       break
     default:
-      Logger.error('No action selected')
+      Logger.error('No action selected!')
   }
 }

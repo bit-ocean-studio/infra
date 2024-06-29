@@ -75,6 +75,6 @@ export const g = async () => {
       generateContributors()
       break
     default:
-      Logger.error('No generator selected')
+      Logger.error('No action selected!')
   }
 }

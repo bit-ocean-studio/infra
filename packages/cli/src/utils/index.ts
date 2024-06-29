@@ -1,5 +1,7 @@
+export * from './get-latest-package-json'
 export * from './is-monorepo'
 export * from './logger'
 export * from './read-git-repo'
 export * from './read-global-config'
 export * from './read-package-json'
+export * from './read-project-package-json'

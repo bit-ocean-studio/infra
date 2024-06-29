@@ -1,24 +1,20 @@
 {
-  "name": "@bit-ocean/auto-import",
+  "name": "@bit-ocean/theme",
   "version": "0.0.36",
-  "description": "Universal auto-import module.",
+  "description": "Universal theme configuration.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
   "bugs": "https://github.com/bit-ocean-studio/infra/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/bit-ocean-studio/infra.git",
-    "directory": "packages/auto-import"
+    "directory": "packages/theme"
   },
   "keywords": [
     "bit-ocean",
     "bit-ocean-infra",
-    "auto-import",
-    "auto-import-resolvers",
-    "unplugin-auto-import",
-    "unplugin-auto-import-ahooks",
-    "unplugin-auto-import-antd",
-    "unplugin-auto-import-antd-pro-components"
+    "theme",
+    "theme-config"
   ],
   "files": [
     "dist"
@@ -37,10 +33,12 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "unplugin-auto-import": "^0.17.6"
+    "antd": "^5.18.3"
   },
-  "devDependencies": {
-    "unimport": "^3.7.2"
+  "peerDependenciesMeta": {
+    "antd": {
+      "optional": true
+    }
   },
   "publishConfig": {
     "access": "public"

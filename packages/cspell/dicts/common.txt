@@ -17,12 +17,15 @@ icns
 iconify
 immer
 kolorist
+libc
 monokai
 nestjs
 neue
+nextjs
 nocheck
 nord
 noto
+picocolors
 qrcode
 roboto
 sider

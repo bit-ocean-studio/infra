@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/tailwind",
-  "version": "0.0.35",
+  "version": "0.0.36",
   "description": "Universal Tailwind CSS configuration.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -29,6 +29,9 @@
     "eslint:fix": "eslint . --color --cache --fix",
     "prettier:check": "prettier --check --cache --ignore-unknown --ignore-path=../../.prettierignore .",
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
+  },
+  "dependencies": {
+    "@bit-ocean/theme": "workspace:^"
   },
   "peerDependencies": {
     "tailwindcss": "^3.4.4"

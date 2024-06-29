@@ -14,4 +14,14 @@ export interface TeamConfig {
    * @default 'https://www.bit-ocean.studio'
    */
   WEBSITE_URL: string
+  /**
+   * The founder of the team.
+   * @default 'Bruce Song'
+   */
+  TEAM_FOUNDER: string
+  /**
+   * The email address of the team.
+   * @default 'recall4056@gmail.com'
+   */
+  EMAIL_ADDRESS: string
 }

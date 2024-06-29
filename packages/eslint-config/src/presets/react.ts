@@ -27,5 +27,6 @@ export const reactRules: Linter.RulesRecord = {
   'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.tsx'] }],
   'react/jsx-no-useless-fragment': ['error', { allowExpressions: true }],
   'react/no-array-index-key': 'off',
-  'react/no-unstable-nested-components': ['error', { allowAsProps: true, customValidators: [] }]
+  'react/no-unstable-nested-components': ['error', { allowAsProps: true, customValidators: [] }],
+  'react/require-default-props': 'off'
 }

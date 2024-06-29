@@ -7,7 +7,8 @@ export const typescriptRules: Linter.RulesRecord = {
   '@typescript-eslint/triple-slash-reference': 'off',
   '@typescript-eslint/no-unused-vars': 'off',
   '@typescript-eslint/no-use-before-define': ['error', { functions: false, classes: false }],
-  '@typescript-eslint/no-throw-literal': 'off'
+  '@typescript-eslint/no-throw-literal': 'off',
+  '@typescript-eslint/no-empty-function': 'off'
 }
 
 export const buildTypescriptOverrides = (

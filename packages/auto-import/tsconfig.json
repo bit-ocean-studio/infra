@@ -1,9 +1,8 @@
 {
   "extends": "@bit-ocean/tsconfig/base",
   "compilerOptions": {
-    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src", "tsup.config.ts"]

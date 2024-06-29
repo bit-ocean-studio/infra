@@ -2,9 +2,8 @@
   "extends": "@bit-ocean/tsconfig/base",
   "compilerOptions": {
     "target": "ESNext",
-    "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"]
     }
   },
   "include": ["src", "tsup.config.ts"]

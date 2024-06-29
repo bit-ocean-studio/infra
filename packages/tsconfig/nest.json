@@ -9,6 +9,7 @@
     "removeComments": true,
     "incremental": true,
     "strictPropertyInitialization": false,
+    "useDefineForClassFields": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true
   }

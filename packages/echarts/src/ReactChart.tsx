@@ -1,5 +1,4 @@
-import type { EChartsInitOpts, EChartsOption, EChartsType } from 'echarts'
-import { init } from 'echarts'
+import { type EChartsInitOpts, type EChartsOption, type EChartsType, init } from 'echarts'
 import type { SetOptionOpts } from 'echarts/core'
 import {
   type CSSProperties,
@@ -20,7 +19,7 @@ export interface ReactChartProps {
   autoResize?: boolean
   className?: string
   style?: CSSProperties
-  onChartReady?: (instance: EChartsType) => void
+  onChartReady?: (instance?: EChartsType) => void
 }
 
 export interface ReactChartRef {

@@ -39,8 +39,14 @@
   "peerDependencies": {
     "unplugin-auto-import": "^0.17.6"
   },
+  "peerDependenciesMeta": {
+    "unplugin-auto-import": {
+      "optional": true
+    }
+  },
   "devDependencies": {
-    "unimport": "^3.7.2"
+    "unimport": "^3.7.2",
+    "unplugin-auto-import": "^0.17.6"
   },
   "publishConfig": {
     "access": "public"

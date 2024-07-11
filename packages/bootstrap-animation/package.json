@@ -33,9 +33,6 @@
     "prettier:check": "prettier --check --cache --ignore-unknown --ignore-path=../../.prettierignore .",
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
-  "peerDependencies": {
-    "vite": "^5.3.2"
-  },
   "dependencies": {
     "@bit-ocean/config": "workspace:^",
     "figlet": "^1.7.0",

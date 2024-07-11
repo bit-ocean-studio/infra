@@ -37,6 +37,9 @@
   "peerDependencies": {
     "axios": "^1.7.2"
   },
+  "devDependencies": {
+    "axios": "^1.7.2"
+  },
   "publishConfig": {
     "access": "public"
   },

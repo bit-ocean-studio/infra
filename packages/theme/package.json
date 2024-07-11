@@ -33,12 +33,15 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "antd": "^5.18.3"
+    "antd": "^5.19.1"
   },
   "peerDependenciesMeta": {
     "antd": {
       "optional": true
     }
+  },
+  "devDependencies": {
+    "antd": "^5.19.1"
   },
   "publishConfig": {
     "access": "public"

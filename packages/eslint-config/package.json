@@ -45,13 +45,13 @@
     "eslint": "^8.0.0"
   },
   "dependencies": {
-    "@tanstack/eslint-plugin-query": "^5.49.0",
-    "@typescript-eslint/eslint-plugin": "^7.14.1",
-    "@typescript-eslint/parser": "^7.14.1",
+    "@tanstack/eslint-plugin-query": "^5.51.1",
+    "@typescript-eslint/eslint-plugin": "^7.16.0",
+    "@typescript-eslint/parser": "^7.16.0",
     "astro-eslint-parser": "^1.0.2",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^18.0.0",
-    "eslint-config-next": "^14.2.4",
+    "eslint-config-next": "^14.2.5",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
@@ -59,11 +59,11 @@
     "eslint-plugin-react": "^7.34.3",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-native": "^4.1.0",
-    "eslint-plugin-react-refresh": "^0.4.7",
-    "eslint-plugin-simple-import-sort": "^12.1.0",
+    "eslint-plugin-react-refresh": "^0.4.8",
+    "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-tailwindcss": "^3.17.4",
     "eslint-plugin-unused-imports": "^4.0.0",
-    "eslint-plugin-vue": "^9.26.0",
+    "eslint-plugin-vue": "^9.27.0",
     "vue-eslint-parser": "^9.4.3"
   },
   "devDependencies": {

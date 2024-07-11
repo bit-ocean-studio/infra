@@ -10,5 +10,6 @@ export default defineConfig((options) => ({
   skipNodeModulesBundle: true,
   outDir: 'dist',
   format: ['cjs', 'esm'],
-  minify: !options.watch
+  minify: !options.watch,
+  external: ['react', 'echarts']
 }))

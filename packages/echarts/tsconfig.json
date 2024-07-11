@@ -1,0 +1,4 @@
+{
+  "extends": "@bit-ocean/tsconfig/react",
+  "include": ["src", "tsup.config.ts"]
+}

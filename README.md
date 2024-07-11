@@ -8,6 +8,7 @@
 ![npm](https://img.shields.io/npm/v/@bit-ocean/commitlint-config?logo=commitlint&label=commitlint-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/config?logo=prettier&label=config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/cspell?logo=npm&label=cspell)
+![npm](https://img.shields.io/npm/v/@bit-ocean/echarts?logo=typescript&label=echarts)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/eslint-config?logo=eslint&label=eslint-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/prettier-config?logo=prettier&label=prettier-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/renovate-config?logo=renovatebot&label=renovate-config)
@@ -23,6 +24,7 @@
 - [`commitlint-config`](/packages/commitlint-config/README.md): Universal Commitlint configuration.
 - [`config`](/packages/config/README.md): Universal project configuration.
 - [`cspell`](/packages/cspell/README.md): Universal CSpell dictionary configuration.
+- [`echarts`](/packages/echarts/README.md): Universal ECharts components.
 - [`eslint-config`](/packages/eslint-config/README.md): Universal ESLint configuration.
 - [`hooks`](/packages/hooks/README.md): Universal hooks.
 - [`i18n`](/packages/i18n/README.md): Universal i18n instance for React projects.

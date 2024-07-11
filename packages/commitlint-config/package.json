@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/commitlint-config",
-  "version": "0.0.37",
+  "version": "0.0.38",
   "description": "Universal Commitlint configuration.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",

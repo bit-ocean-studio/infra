@@ -1,20 +1,20 @@
 # @bit-ocean/echarts
 
-English / [简体中文](./README.zh-CN.md)
+[English](./README.md) / 简体中文
 
 ![npm](https://img.shields.io/npm/v/@bit-ocean-studio/echarts?logo=typescript&label=echarts)
 
-> Universal ECharts components.
+> 通用的 ECharts 组件。
 
-This package provides universal ECharts components for all our projects.
+该包为我们的所有项目提供了通用的 ECharts 组件。
 
-## Installation
+## 安装
 
 ```bash
 pnpm add echarts @bit-ocean-studio/echarts
 ```
 
-## Usage
+## 使用
 
 ```ts
 import { BarChart, LineChart, MapChart, PieChart } from 'echarts/charts'
@@ -75,6 +75,6 @@ export default function App() {
 }
 ```
 
-## License
+## 许可证
 
 [MIT](/LICENSE) License &copy; 2024 Bit Ocean

@@ -11,7 +11,7 @@ This package provides universal ECharts components for all our projects.
 ## Installation
 
 ```bash
-pnpm add echarts @bit-ocean-studio/echarts
+pnpm add echarts @bit-ocean/echarts
 ```
 
 ## Usage

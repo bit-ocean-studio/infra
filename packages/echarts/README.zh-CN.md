@@ -11,7 +11,7 @@
 ## 安装
 
 ```bash
-pnpm add echarts @bit-ocean-studio/echarts
+pnpm add echarts @bit-ocean/echarts
 ```
 
 ## 使用

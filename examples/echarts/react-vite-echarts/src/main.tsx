@@ -1,3 +1,6 @@
+import '@/assets/styles/main.css'
+import './echarts'
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 

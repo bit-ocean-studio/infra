@@ -1,4 +1,4 @@
-import { BarChart } from 'echarts/charts'
+import { BarChart, LineChart, PieChart, ScatterChart } from 'echarts/charts'
 import {
   GridComponent,
   LegendComponent,
@@ -6,6 +6,7 @@ import {
   TooltipComponent
 } from 'echarts/components'
 import * as echarts from 'echarts/core'
+import { UniversalTransition } from 'echarts/features'
 import { SVGRenderer } from 'echarts/renderers'
 
 echarts.use([
@@ -14,5 +15,9 @@ echarts.use([
   TitleComponent,
   TooltipComponent,
   BarChart,
+  LineChart,
+  PieChart,
+  ScatterChart,
+  UniversalTransition,
   SVGRenderer
 ])

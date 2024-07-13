@@ -33,7 +33,7 @@ export function TransitionChart() {
         }
       },
       grid: {
-        top: 40,
+        top: 50,
         left: 10,
         right: 100,
         bottom: 10,

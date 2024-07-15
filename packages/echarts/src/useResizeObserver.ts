@@ -17,7 +17,9 @@ export function useResizeObserver(ref: RefObject<HTMLDivElement>): Dimension | n
     observer.observe(ref.current!)
 
     return () => {
-      observer.unobserve(ref.current!)
+      if (ref.current) {
+        observer.unobserve(ref.current)
+      }
       observer.disconnect()
     }
   }, [ref])

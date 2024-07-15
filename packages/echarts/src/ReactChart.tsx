@@ -10,6 +10,8 @@ import {
   useRef
 } from 'react'
 
+import { useResizeObserver } from './useResizeObserver'
+
 export interface ReactChartProps {
   option?: EChartsOption
   initOps?: EChartsInitOpts
@@ -53,6 +55,7 @@ export const ReactChart = forwardRef<ReactChartRef, ReactChartProps>((props, ref
   const chartInstance = useRef<EChartsType | null>(null)
   const chartRef = useRef<HTMLDivElement | null>(null)
   const initialResize = useRef(false)
+  const dimensions = useResizeObserver(chartRef)
 
   const resize = useCallback(() => {
     chartInstance.current?.resize({
@@ -111,6 +114,8 @@ export const ReactChart = forwardRef<ReactChartRef, ReactChartProps>((props, ref
     window.addEventListener('resize', resize)
     return () => window.removeEventListener('resize', resize)
   }, [resize])
+
+  useEffect(() => resize(), [dimensions])
 
   const divProps = useMemo(
     () => ({

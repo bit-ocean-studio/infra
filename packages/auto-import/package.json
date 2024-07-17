@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/auto-import",
-  "version": "0.0.42",
+  "version": "0.0.43",
   "description": "Universal auto-import module.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -52,7 +52,7 @@
     }
   },
   "devDependencies": {
-    "unimport": "^3.7.2",
+    "unimport": "^3.9.0",
     "unplugin-auto-import": "^0.18.0"
   },
   "publishConfig": {

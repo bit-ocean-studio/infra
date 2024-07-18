@@ -75,6 +75,24 @@ export default function App() {
 }
 ```
 
+## FAQ
+
+### How to use `ResizeObserver API` in non-modern browsers?
+
+Please use [resize-observer-polyfill](https://www.npmjs.com/package/resize-observer-polyfill).
+
+```bash
+pnpm add resize-observer-polyfill
+```
+
+Replace the global `ResizeObserver` with the polyfill:
+
+```ts
+import ResizeObserver from 'resize-observer-polyfill'
+
+window.ResizeObserver = ResizeObserver
+```
+
 ## License
 
 [MIT](/LICENSE) License &copy; 2024 Bit Ocean

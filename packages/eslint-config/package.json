@@ -45,7 +45,7 @@
     "eslint": "^8.0.0"
   },
   "dependencies": {
-    "@tanstack/eslint-plugin-query": "^5.51.1",
+    "@tanstack/eslint-plugin-query": "^5.51.12",
     "@typescript-eslint/eslint-plugin": "^7.16.1",
     "@typescript-eslint/parser": "^7.16.1",
     "astro-eslint-parser": "^1.0.2",
@@ -56,7 +56,7 @@
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-jsx-a11y": "^6.9.0",
-    "eslint-plugin-react": "^7.34.4",
+    "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-native": "^4.1.0",
     "eslint-plugin-react-refresh": "^0.4.8",

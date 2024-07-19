@@ -40,7 +40,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "antd": "^5.19.2"
+    "antd": "^5.19.3"
   },
   "peerDependenciesMeta": {
     "antd": {
@@ -48,7 +48,7 @@
     }
   },
   "devDependencies": {
-    "antd": "^5.19.2"
+    "antd": "^5.19.3"
   },
   "publishConfig": {
     "access": "public"

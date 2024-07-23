@@ -71,5 +71,17 @@ export const reactPresets: (ImportsMap | PresetName | InlinePreset)[] = [
   { from: 'zod', imports: ['z'] },
   { from: 'framer-motion', imports: ['motion', 'AnimatePresence'] },
   { from: '@bit-ocean/config', imports: ['teamConfig'] },
-  { from: '@bit-ocean/echarts', imports: ['ReactChart'] }
+  { from: '@bit-ocean/echarts', imports: ['ReactChart'] },
+  {
+    from: '@bit-ocean/utils',
+    imports: [
+      'AuthUtils',
+      'BrowserUtils',
+      'DateUtils',
+      'I18nUtils',
+      'IsUtils',
+      'LangUtils',
+      'ThemeUtils'
+    ]
+  }
 ]

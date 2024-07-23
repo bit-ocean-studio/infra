@@ -7,19 +7,7 @@ export default defineConfig({
     }
   },
   test: {
-    // alias: {
-    //   '@/*': './src/*'
-    // },
     environment: 'happy-dom',
-    // browser: {
-    //   enabled: true,
-    //   headless: true,
-    //   name: 'chrome'
-    // },
     globals: true
-    // coverage: {
-    //   enabled: true,
-    //   include: ['src/**/*.ts']
-    // }
   }
 })

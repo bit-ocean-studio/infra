@@ -5,5 +5,5 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["src", "tsup.config.ts", "test", "vitest.config.ts"]
+  "include": ["src", "tsup.config.ts", "@types", "test", "vitest.config.ts"]
 }

@@ -44,8 +44,14 @@
   "peerDependencies": {
     "axios": "^1.7.2"
   },
+  "dependencies": {
+    "@bit-ocean/utils": "workspace:^"
+  },
   "devDependencies": {
-    "axios": "^1.7.2"
+    "@tanstack/react-router": "^1.45.6",
+    "antd": "^5.19.3",
+    "axios": "^1.7.2",
+    "i18next": "^23.12.2"
   },
   "publishConfig": {
     "access": "public"

@@ -29,3 +29,7 @@ module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}']
 }
 ```
+
+## License
+
+[MIT](/LICENSE) License &copy; 2024 Bit Ocean

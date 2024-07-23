@@ -479,6 +479,12 @@ importers:
         specifier: ^4.0.0 || ^5.0.0
         version: 5.4.5
 
+  packages/utils:
+    devDependencies:
+      dayjs:
+        specifier: ^1.11.12
+        version: 1.11.12
+
   playgrounds/react:
     dependencies:
       react:
@@ -4157,6 +4163,9 @@ packages:
 
   dayjs@1.11.11:
     resolution: {integrity: sha512-okzr3f11N6WuqYtZSvm+F776mB41wRZMhKP+hc34YdW+KmtYYK9iqvHSwo2k9FEH3fhGXvOPV6yz2IcSrfRUDg==}
+
+  dayjs@1.11.12:
+    resolution: {integrity: sha512-Rt2g+nTbLlDWZTwwrIXjy9MeiZmSDI375FvZs72ngxx8PDC6YXOeR3q5LAuPzjZQxhiWdRKac7RKV+YyQYfYIg==}
 
   debug@3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
@@ -8238,7 +8247,7 @@ snapshots:
       '@chenshuai2144/sketch-color': 1.0.9(react@18.3.1)
       antd: 5.19.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       classnames: 2.5.1
-      dayjs: 1.11.11
+      dayjs: 1.11.12
       lodash.tonumber: 4.0.3
       omit.js: 2.0.2
       rc-util: 5.43.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -8258,7 +8267,7 @@ snapshots:
       '@umijs/use-params': 1.0.9(react@18.3.1)
       antd: 5.19.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       classnames: 2.5.1
-      dayjs: 1.11.11
+      dayjs: 1.11.12
       lodash.merge: 4.6.2
       omit.js: 2.0.2
       rc-field-form: 2.2.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -8297,7 +8306,7 @@ snapshots:
       '@babel/runtime': 7.24.7
       antd: 5.19.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       classnames: 2.5.1
-      dayjs: 1.11.11
+      dayjs: 1.11.12
       rc-resize-observer: 1.4.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       rc-util: 4.21.1
       react: 18.3.1
@@ -8339,7 +8348,7 @@ snapshots:
       '@dnd-kit/utilities': 3.2.2(react@18.3.1)
       antd: 5.19.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       classnames: 2.5.1
-      dayjs: 1.11.11
+      dayjs: 1.11.12
       lodash.merge: 4.6.2
       omit.js: 2.0.2
       rc-field-form: 2.2.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -8357,7 +8366,7 @@ snapshots:
       '@babel/runtime': 7.24.7
       antd: 5.19.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       classnames: 2.5.1
-      dayjs: 1.11.11
+      dayjs: 1.11.12
       lodash.merge: 4.6.2
       rc-util: 5.43.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
@@ -12877,6 +12886,8 @@ snapshots:
       is-data-view: 1.0.1
 
   dayjs@1.11.11: {}
+
+  dayjs@1.11.12: {}
 
   debug@3.2.7:
     dependencies:

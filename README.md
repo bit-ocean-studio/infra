@@ -13,7 +13,9 @@
 ![npm](https://img.shields.io/npm/v/@bit-ocean/prettier-config?logo=prettier&label=prettier-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/renovate-config?logo=renovatebot&label=renovate-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/tailwind?logo=tailwindcss&label=tailwind)
+![npm](https://img.shields.io/npm/v/@bit-ocean/theme?logo=typescript&label=theme)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/tsconfig?logo=typescript&label=tsconfig)
+![npm](https://img.shields.io/npm/v/@bit-ocean/utils?logo=typescript&label=utils)
 
 ## Packages
 

@@ -1,0 +1,66 @@
+{
+  "name": "@bit-ocean/prisma",
+  "version": "0.0.0",
+  "description": "Universal Prisma module.",
+  "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
+  "homepage": "https://github.com/bit-ocean-studio/infra#readme",
+  "bugs": "https://github.com/bit-ocean-studio/infra/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bit-ocean-studio/infra.git",
+    "directory": "packages/prisma"
+  },
+  "keywords": [
+    "bit-ocean",
+    "bit-ocean-infra",
+    "prisma",
+    "prisma-module",
+    "nest-prisma",
+    "nest-prisma-module"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "prebuild": "pnpm prisma generate",
+    "type:check": "tsc --pretty --noEmit",
+    "cspell:check": "cspell --no-progress --show-suggestions --show-context --cache **",
+    "eslint:check": "eslint . --color --cache",
+    "eslint:fix": "eslint . --color --cache --fix",
+    "prettier:check": "prettier --check --cache --ignore-unknown --ignore-path=../../.prettierignore .",
+    "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^9.0.0 || ^10.0.0",
+    "@nestjs/core": "^9.0.0 || ^10.0.0",
+    "@prisma/client": "^5.0.0",
+    "prisma": "^5.0.0",
+    "reflect-metadata": "^0.2.2"
+  },
+  "devDependencies": {
+    "@nestjs/common": "^10.3.10",
+    "@nestjs/core": "^10.3.10",
+    "@prisma/client": "^5.17.0",
+    "prisma": "^5.17.0",
+    "reflect-metadata": "^0.2.2"
+  },
+  "prisma": {
+    "schema": "prisma/schema.prisma"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}

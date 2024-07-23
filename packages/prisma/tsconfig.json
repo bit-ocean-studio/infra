@@ -1,0 +1,7 @@
+{
+  "extends": "@bit-ocean/tsconfig/nest",
+  "compilerOptions": {
+    "incremental": false
+  },
+  "include": ["src", "tsup.config.ts"]
+}

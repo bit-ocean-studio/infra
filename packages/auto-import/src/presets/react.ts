@@ -53,6 +53,7 @@ export const reactPresets: (ImportsMap | PresetName | InlinePreset)[] = [
       'useBlocker',
       'useChildMatches',
       'useLoaderData',
+      'useLocation',
       'useMatch',
       'useMatchRoute',
       'useMatches',

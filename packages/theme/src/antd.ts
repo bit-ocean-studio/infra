@@ -33,11 +33,7 @@ export const themeBaseToken: Partial<AliasToken> = {
   screenXLMax: 1535
 }
 
-export const themeBaseComponents: ThemeConfig['components'] = {
-  Card: {
-    paddingLG: 16
-  }
-}
+export const themeBaseComponents: ThemeConfig['components'] = {}
 
 export const lightThemeConfigPresets: ThemeConfig = {
   algorithm: theme.defaultAlgorithm,

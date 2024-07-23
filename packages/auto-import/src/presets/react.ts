@@ -14,6 +14,7 @@ export const reactPresets: (ImportsMap | PresetName | InlinePreset)[] = [
       'focusManager',
       'keepPreviousData',
       'onlineManager',
+      'MutationCache',
       'QueryClient',
       'QueryClientProvider',
       'queryOptions',
@@ -48,6 +49,7 @@ export const reactPresets: (ImportsMap | PresetName | InlinePreset)[] = [
       'Outlet',
       'redirect',
       'RouterProvider',
+      'ScrollRestoration',
       'useBlocker',
       'useChildMatches',
       'useLoaderData',
@@ -63,20 +65,11 @@ export const reactPresets: (ImportsMap | PresetName | InlinePreset)[] = [
       'useSearch'
     ]
   },
-  {
-    from: 'clsx',
-    imports: [['default', 'clsx']]
-  },
-  {
-    from: 'use-immer',
-    imports: ['useImmer']
-  },
-  {
-    from: 'framer-motion',
-    imports: ['AnimatePresence', 'motion']
-  },
-  {
-    from: '@bit-ocean/config',
-    imports: ['teamConfig']
-  }
+  { from: 'clsx', imports: [['default', 'clsx']] },
+  { from: 'use-immer', imports: ['useImmer'] },
+  { from: 'dayjs', imports: [['default', 'dayjs']] },
+  { from: 'zod', imports: ['z'] },
+  { from: 'framer-motion', imports: ['motion', 'AnimatePresence'] },
+  { from: '@bit-ocean/config', imports: ['teamConfig'] },
+  { from: '@bit-ocean/echarts', imports: ['ReactChart'] }
 ]

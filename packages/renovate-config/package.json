@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/renovate-config",
-  "version": "0.0.43",
+  "version": "0.0.44",
   "description": "Universal Renovate configuration.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",

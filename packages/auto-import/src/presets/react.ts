@@ -73,6 +73,7 @@ export const reactPresets: (ImportsMap | PresetName | InlinePreset)[] = [
   { from: 'framer-motion', imports: ['motion', 'AnimatePresence'] },
   { from: '@bit-ocean/config', imports: ['teamConfig'] },
   { from: '@bit-ocean/echarts', imports: ['ReactChart'] },
+  { from: '@bit-ocean/hooks', imports: ['useRouteStaticData', 'useRoutesStaticData'] },
   {
     from: '@bit-ocean/utils',
     imports: [

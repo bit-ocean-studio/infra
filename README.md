@@ -10,6 +10,8 @@
 ![npm](https://img.shields.io/npm/v/@bit-ocean/cspell?logo=npm&label=cspell)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/echarts?logo=typescript&label=echarts)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/eslint-config?logo=eslint&label=eslint-config)
+![npm](https://img.shields.io/npm/v/@bit-ocean/hooks?logo=react&label=hooks)
+![npm](https://img.shields.io/npm/v/@bit-ocean/i18n?logo=typescript&label=i18n)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/prettier-config?logo=prettier&label=prettier-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/renovate-config?logo=renovatebot&label=renovate-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/tailwind?logo=tailwindcss&label=tailwind)

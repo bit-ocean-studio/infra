@@ -3,6 +3,7 @@ import { ConfigBuilder } from '../config-builder'
 const reactConfig = new ConfigBuilder(
   {
     extends: [
+      'plugin:storybook/recommended',
       'plugin:tailwindcss/recommended',
       'eslint:recommended',
       'airbnb',

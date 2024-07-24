@@ -81,6 +81,7 @@ nx-cloud.env
 out
 
 # Storybook
+*storybook.log
 storybook-static
 
 # Generated

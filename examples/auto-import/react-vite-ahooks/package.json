@@ -20,8 +20,8 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.7.0",
-    "typescript": "^5.5.3",
-    "unplugin-auto-import": "^0.18.0",
+    "typescript": "^5.5.4",
+    "unplugin-auto-import": "^0.18.2",
     "vite": "^5.3.4"
   },
   "private": true,

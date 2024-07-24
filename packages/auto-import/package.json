@@ -44,7 +44,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "unplugin-auto-import": "^0.18.0"
+    "unplugin-auto-import": "^0.18.2"
   },
   "peerDependenciesMeta": {
     "unplugin-auto-import": {
@@ -53,7 +53,7 @@
   },
   "devDependencies": {
     "unimport": "^3.9.0",
-    "unplugin-auto-import": "^0.18.0"
+    "unplugin-auto-import": "^0.18.2"
   },
   "publishConfig": {
     "access": "public"

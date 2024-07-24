@@ -41,3 +41,4 @@ unplugin
 weapp
 webp
 zustand
+chpt_ed19bb591bdaff8

@@ -55,7 +55,8 @@
     "**/Cargo.toml",
     "**/coverage/**",
     "**/stats.html",
-    "**/prisma/migrations/**"
+    "**/prisma/migrations/**",
+    "**/build-storybook.log**"
   ],
   "cache": {
     "cacheLocation": "./node_modules/.cache/cspell/.cspell-cache"

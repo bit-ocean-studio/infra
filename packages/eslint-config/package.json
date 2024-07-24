@@ -46,8 +46,8 @@
   },
   "dependencies": {
     "@tanstack/eslint-plugin-query": "^5.51.12",
-    "@typescript-eslint/eslint-plugin": "^7.16.1",
-    "@typescript-eslint/parser": "^7.16.1",
+    "@typescript-eslint/eslint-plugin": "^7.17.0",
+    "@typescript-eslint/parser": "^7.17.0",
     "astro-eslint-parser": "^1.0.2",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-airbnb-typescript": "^18.0.0",
@@ -59,15 +59,16 @@
     "eslint-plugin-react": "^7.35.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-native": "^4.1.0",
-    "eslint-plugin-react-refresh": "^0.4.8",
+    "eslint-plugin-react-refresh": "^0.4.9",
     "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-tailwindcss": "^3.17.4",
-    "eslint-plugin-unused-imports": "^4.0.0",
+    "eslint-plugin-unused-imports": "^4.0.1",
     "eslint-plugin-vue": "^9.27.0",
     "vue-eslint-parser": "^9.4.3"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.10"
+    "@types/eslint": "^8.56.11"
   },
   "publishConfig": {
     "access": "public"

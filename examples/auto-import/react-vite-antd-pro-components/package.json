@@ -11,7 +11,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "dependencies": {
-    "@ant-design/icons": "^5.3.7",
+    "@ant-design/icons": "^5.4.0",
     "@ant-design/pro-components": "^2.7.14",
     "antd": "^5.19.3",
     "react": "^18.3.1",
@@ -22,8 +22,8 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.7.0",
-    "typescript": "^5.5.3",
-    "unplugin-auto-import": "^0.18.0",
+    "typescript": "^5.5.4",
+    "unplugin-auto-import": "^0.18.2",
     "vite": "^5.3.4"
   },
   "private": true,

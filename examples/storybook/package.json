@@ -1,9 +1,13 @@
 {
-  "name": "react-vite-antd",
+  "name": "storybook",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "chromatic": "npx chromatic --project-token=chpt_ed19bb591bdaff8",
     "cspell:check": "cspell --no-progress --show-suggestions --show-context --cache **",
     "eslint:check": "eslint . --color --cache",
     "eslint:fix": "eslint . --color --cache --fix",
@@ -11,18 +15,24 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "dependencies": {
-    "@ant-design/icons": "^5.4.0",
-    "antd": "^5.19.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@bit-ocean/auto-import": "workspace:^",
+    "@chromatic-com/storybook": "1.6.1",
+    "@storybook/addon-essentials": "^8.2.6",
+    "@storybook/addon-interactions": "^8.2.6",
+    "@storybook/addon-links": "^8.2.6",
+    "@storybook/addon-onboarding": "^8.2.6",
+    "@storybook/blocks": "^8.2.6",
+    "@storybook/react": "^8.2.6",
+    "@storybook/react-vite": "^8.2.6",
+    "@storybook/test": "^8.2.6",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react-swc": "^3.7.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "storybook": "^8.2.6",
     "typescript": "^5.5.4",
-    "unplugin-auto-import": "^0.18.2",
     "vite": "^5.3.4"
   },
   "private": true,

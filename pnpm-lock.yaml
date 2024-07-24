@@ -276,6 +276,12 @@ importers:
 
   examples/storybook:
     dependencies:
+      '@bit-ocean/echarts':
+        specifier: workspace:^
+        version: link:../../packages/echarts
+      echarts:
+        specifier: ^5.5.1
+        version: 5.5.1
       react:
         specifier: ^18.3.1
         version: 18.3.1

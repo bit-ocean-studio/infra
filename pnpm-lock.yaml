@@ -511,6 +511,8 @@ importers:
         specifier: ^3.4.6
         version: 3.4.6(ts-node@10.9.1(@swc/core@1.7.0)(@types/node@20.14.11)(typescript@5.5.3))
 
+  packages/tanstack-query: {}
+
   packages/theme:
     devDependencies:
       antd:

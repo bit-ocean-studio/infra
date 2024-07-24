@@ -13,6 +13,7 @@
 ![npm](https://img.shields.io/npm/v/@bit-ocean/prettier-config?logo=prettier&label=prettier-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/renovate-config?logo=renovatebot&label=renovate-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/tailwind?logo=tailwindcss&label=tailwind)
+![npm](https://img.shields.io/npm/v/@bit-ocean/tanstack-query?logo=typescript&label=tanstack-query)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/theme?logo=typescript&label=theme)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/tsconfig?logo=typescript&label=tsconfig)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/utils?logo=typescript&label=utils)
@@ -29,11 +30,11 @@
 - [`echarts`](/packages/echarts/README.md): Universal ECharts components.
 - [`eslint-config`](/packages/eslint-config/README.md): Universal ESLint configuration.
 - [`hooks`](/packages/hooks/README.md): Universal hooks.
-- [`i18n`](/packages/i18n/README.md): Universal i18n instance for React projects.
+- [`i18n`](/packages/i18n/README.md): Universal i18n instance.
 - [`prettier-config`](/packages/prettier-config/README.md): Universal Prettier configuration.
 - [`renovate-config`](/packages/renovate-config/README.md): Universal Renovate configuration.
 - [`tailwind`](/packages/tailwind/README.md): Universal Tailwind CSS configuration.
-- [`tanstack-query`](/packages/tanstack-query/README.md): Universal Tanstack Query instance and plugins.
+- [`tanstack-query`](/packages/tanstack-query/README.md): Universal Tanstack Query configuration.
 - [`theme`](/packages/theme/README.md): Universal theme configuration.
 - [`tsconfig`](/packages/tsconfig/README.md): Universal tsconfig for TypeScript projects.
 - [`utils`](/packages/utils/README.md): Utility functions, types.

@@ -68,7 +68,7 @@
     "vue-eslint-parser": "^9.4.3"
   },
   "devDependencies": {
-    "@types/eslint": "^8.56.11"
+    "@types/eslint": "^9.0.0"
   },
   "publishConfig": {
     "access": "public"

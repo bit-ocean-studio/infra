@@ -1,9 +1,0 @@
-{
-  "extends": "@bit-ocean/tsconfig/react",
-  "include": ["src", "@types"],
-  "references": [
-    {
-      "path": "./tsconfig.node.json"
-    }
-  ]
-}

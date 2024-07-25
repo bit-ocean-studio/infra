@@ -2,4 +2,3 @@ packages:
   - apps/*
   - examples/**
   - packages/*
-  - playgrounds/*

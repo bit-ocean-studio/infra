@@ -1,4 +1,0 @@
-{
-  "extends": "@bit-ocean/tsconfig/vite",
-  "include": ["vite.config.ts"]
-}

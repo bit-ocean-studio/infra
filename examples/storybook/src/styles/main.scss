@@ -1,0 +1,23 @@
+@use 'tailwind';
+
+html,
+body {
+  font-family:
+    Nunito,
+    Noto Sans SC,
+    system-ui,
+    -apple-system,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    sans-serif;
+  min-height: 100vh;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+html[data-theme='dark'] {
+  color: #ffffff;
+}

@@ -1,5 +1,6 @@
-import { ReactChart } from '@bit-ocean/echarts'
 import type { Meta, StoryObj } from '@storybook/react'
+
+import { ReactChart } from './ReactChart'
 
 const meta = {
   title: '@bit-ocean/echarts/ReactChart',
@@ -72,6 +73,122 @@ export const BarChart: Story = {
       },
       yAxis: { type: 'value', name: '数量' },
       series: [{ type: 'bar' }, { type: 'bar' }, { type: 'bar' }, { type: 'bar' }],
+      dataset: {
+        dimensions: [
+          { name: 'week', displayName: 'Week' },
+          { name: 'pc', displayName: 'PC' },
+          { name: 'web', displayName: 'Web' },
+          { name: 'ios', displayName: 'iOS' },
+          { name: 'android', displayName: 'Android' }
+        ],
+        source: generateRandomData()
+      }
+    }
+  }
+}
+
+export const LineChart: Story = {
+  args: {
+    style: {
+      width: 600,
+      height: 250
+    },
+    theme: 'light',
+    option: {
+      textStyle: {
+        fontFamily: 'inherit'
+      },
+      title: {
+        text: 'Line Chart',
+        left: 'center'
+      },
+      tooltip: {
+        trigger: 'axis',
+        axisPointer: {
+          type: 'cross'
+        }
+      },
+      grid: {
+        top: 50,
+        left: 10,
+        right: 100,
+        bottom: 10,
+        tooltip: true,
+        containLabel: true
+      },
+      legend: {
+        align: 'left',
+        right: 0,
+        top: 'center',
+        orient: 'vertical'
+      },
+      xAxis: {
+        type: 'category',
+        name: '星期',
+        axisTick: { alignWithLabel: true }
+      },
+      yAxis: { type: 'value', name: '数量' },
+      series: [{ type: 'line' }, { type: 'line' }, { type: 'line' }, { type: 'line' }],
+      dataset: {
+        dimensions: [
+          { name: 'week', displayName: 'Week' },
+          { name: 'pc', displayName: 'PC' },
+          { name: 'web', displayName: 'Web' },
+          { name: 'ios', displayName: 'iOS' },
+          { name: 'android', displayName: 'Android' }
+        ],
+        source: generateRandomData()
+      }
+    }
+  }
+}
+
+export const PieChart: Story = {
+  args: {
+    style: {
+      width: 600,
+      height: 250
+    },
+    theme: 'light',
+    option: {
+      textStyle: {
+        fontFamily: 'inherit'
+      },
+      title: {
+        text: 'Pie Chart',
+        left: 'center'
+      },
+      tooltip: {
+        trigger: 'item',
+        formatter: '{a} <br/>{b}: {c} ({d}%)'
+      },
+      legend: {
+        orient: 'vertical',
+        right: 10,
+        top: 'center'
+      },
+      series: [
+        {
+          type: 'pie',
+          radius: '50%',
+          center: ['50%', '60%'],
+          label: {
+            show: false
+          },
+          emphasis: {
+            label: {
+              show: true,
+              fontSize: '20',
+              fontWeight: 'bold'
+            }
+          },
+          encode: {
+            itemName: 'week',
+            value: 'pc'
+          },
+          datasetIndex: 0
+        }
+      ],
       dataset: {
         dimensions: [
           { name: 'week', displayName: 'Week' },

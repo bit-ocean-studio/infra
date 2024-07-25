@@ -25,7 +25,7 @@ Then add the following tailwind config presets to your `tailwind.config.js`:
 
 ```js
 module.exports = {
-  presets: [require('@raipiot-infra/tailwind/preset')],
+  presets: [require('@bit-ocean/tailwind')],
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}']
 }
 ```

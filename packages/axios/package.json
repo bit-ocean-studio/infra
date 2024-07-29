@@ -48,7 +48,7 @@
     "@bit-ocean/utils": "workspace:^"
   },
   "devDependencies": {
-    "@tanstack/react-router": "^1.45.8",
+    "@tanstack/react-router": "^1.45.11",
     "antd": "^5.19.3",
     "axios": "^1.7.2",
     "i18next": "^23.12.2"

@@ -1,5 +1,5 @@
 {
-  "name": "@bit-ocean/storybook",
+  "name": "storybook",
   "type": "module",
   "scripts": {
     "dev": "vite",

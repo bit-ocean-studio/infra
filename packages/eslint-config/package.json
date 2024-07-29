@@ -42,7 +42,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "eslint": "^8.0.0"
+    "eslint": "^8.0.0 || ^9.0.0"
   },
   "dependencies": {
     "@tanstack/eslint-plugin-query": "^5.51.15",

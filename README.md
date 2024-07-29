@@ -4,6 +4,7 @@
 
 ![npm](https://img.shields.io/npm/v/@bit-ocean/auto-import?logo=typescript&label=auto-import)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/axios?logo=axios&label=axios)
+![npm](https://img.shields.io/npm/v/@bit-ocean/bootstrap-animation?logo=vite&label=bootstrap-animation)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/cli?logo=gnubash&label=cli)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/commitlint-config?logo=commitlint&label=commitlint-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/config?logo=prettier&label=config)
@@ -13,6 +14,7 @@
 ![npm](https://img.shields.io/npm/v/@bit-ocean/hooks?logo=react&label=hooks)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/i18n?logo=typescript&label=i18n)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/prettier-config?logo=prettier&label=prettier-config)
+![npm](https://img.shields.io/npm/v/@bit-ocean/prisma?logo=prisma&label=prisma)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/renovate-config?logo=renovatebot&label=renovate-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/tailwind?logo=tailwindcss&label=tailwind)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/tanstack-query?logo=typescript&label=tanstack-query)
@@ -23,9 +25,9 @@
 ## Packages
 
 - [`auto-import`](/packages/auto-import/README.md): Universal auto-import module.
-- [`cli`](/packages/cli/README.md): Universal CLI.
 - [`axios`](/packages/axios/README.md): Universal Axios instance.
-- [`bootstrap`](/packages/bootstrap/README.md): Bootstrap scripts.
+- [`bootstrap-animation`](/packages/bootstrap-animation/README.md): Universal bootstrap animation configuration, support Vite plugin.
+- [`cli`](/packages/cli/README.md): Universal CLI.
 - [`commitlint-config`](/packages/commitlint-config/README.md): Universal Commitlint configuration.
 - [`config`](/packages/config/README.md): Universal project configuration.
 - [`cspell`](/packages/cspell/README.md): Universal CSpell dictionary configuration.
@@ -34,6 +36,7 @@
 - [`hooks`](/packages/hooks/README.md): Universal hooks.
 - [`i18n`](/packages/i18n/README.md): Universal i18n instance.
 - [`prettier-config`](/packages/prettier-config/README.md): Universal Prettier configuration.
+- [`prisma`](/packages/prisma/README.md): Universal Prisma module.
 - [`renovate-config`](/packages/renovate-config/README.md): Universal Renovate configuration.
 - [`tailwind`](/packages/tailwind/README.md): Universal Tailwind CSS configuration.
 - [`tanstack-query`](/packages/tanstack-query/README.md): Universal Tanstack Query configuration.

@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/renovate-config",
-  "version": "0.0.46",
+  "version": "0.0.47",
   "description": "Universal Renovate configuration.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -25,22 +25,34 @@
     "default": {
       "$schema": "https://docs.renovatebot.com/renovate-schema.json",
       "extends": [
-        "config:recommended"
+        "config:recommended",
+        "schedule:daily",
+        ":dependencyDashboard"
       ],
       "labels": [
         "Dependencies"
       ],
-      "updateLockFiles": false,
       "semanticCommits": "enabled",
-      "dependencyDashboard": true,
       "packageRules": [
         {
           "matchDepTypes": [
             "devDependencies"
           ],
+          "matchUpdateTypes": [
+            "minor",
+            "patch"
+          ],
+          "matchCurrentVersion": "!/^0/",
           "automerge": true
         }
-      ]
+      ],
+      "lockFileMaintenance": {
+        "enabled": true,
+        "automerge": true
+      },
+      "major": {
+        "dependencyDashboardApproval": true
+      }
     }
   },
   "publishConfig": {

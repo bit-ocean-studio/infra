@@ -2,12 +2,11 @@ import type { Preview, ReactRenderer } from '@storybook/react'
 import { withThemeByClassName, withThemeByDataAttribute } from '@storybook/addon-themes'
 import React, { useState, useEffect } from 'react'
 import { addons } from '@storybook/preview-api'
-
 import { DocsContainer } from '@storybook/addon-docs'
-
 import { themes } from '@storybook/theming'
 
 import { DARK_MODE_EVENT_NAME, UPDATE_DARK_MODE_EVENT_NAME } from 'storybook-dark-mode'
+
 import '../src/styles/main.scss'
 
 const channel = addons.getChannel()

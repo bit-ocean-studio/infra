@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/cli",
-  "version": "0.0.46",
+  "version": "0.0.47",
   "description": "Universal CLI.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",

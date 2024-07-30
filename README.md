@@ -15,7 +15,6 @@
 ![npm](https://img.shields.io/npm/v/@bit-ocean/i18n?logo=typescript&label=i18n)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/prettier-config?logo=prettier&label=prettier-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/prisma?logo=prisma&label=prisma)
-![npm](https://img.shields.io/npm/v/@bit-ocean/renovate-config?logo=renovatebot&label=renovate-config)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/tailwind?logo=tailwindcss&label=tailwind)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/tanstack-query?logo=typescript&label=tanstack-query)
 ![npm](https://img.shields.io/npm/v/@bit-ocean/theme?logo=typescript&label=theme)
@@ -37,7 +36,6 @@
 - [`i18n`](/packages/i18n/README.md): Universal i18n instance.
 - [`prettier-config`](/packages/prettier-config/README.md): Universal Prettier configuration.
 - [`prisma`](/packages/prisma/README.md): Universal Prisma module.
-- [`renovate-config`](/packages/renovate-config/README.md): Universal Renovate configuration.
 - [`tailwind`](/packages/tailwind/README.md): Universal Tailwind CSS configuration.
 - [`tanstack-query`](/packages/tanstack-query/README.md): Universal Tanstack Query configuration.
 - [`theme`](/packages/theme/README.md): Universal theme configuration.

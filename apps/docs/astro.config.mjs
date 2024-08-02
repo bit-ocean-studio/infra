@@ -5,7 +5,11 @@ import { defineConfig } from 'astro/config'
 export default defineConfig({
   integrations: [
     starlight({
-      title: 'Bit Ocean',
+      title: 'Bit Ocean Docs',
+      description: 'Documentation site for Bit Ocean.',
+      logo: {
+        src: '/src/assets/bit_ocean.png'
+      },
       social: {
         github: 'https://github.com/bit-ocean-studio'
       },

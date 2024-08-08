@@ -40,7 +40,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "@tanstack/react-router": "^1.45.14"
+    "@tanstack/react-router": "^1.46.8"
   },
   "peerDependenciesMeta": {
     "@tanstack/react-router": {
@@ -48,7 +48,7 @@
     }
   },
   "devDependencies": {
-    "@tanstack/react-router": "^1.45.14"
+    "@tanstack/react-router": "^1.46.8"
   },
   "publishConfig": {
     "access": "public"

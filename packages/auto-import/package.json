@@ -52,7 +52,7 @@
     }
   },
   "devDependencies": {
-    "unimport": "^3.9.1",
+    "unimport": "^3.10.0",
     "unplugin-auto-import": "^0.18.2"
   },
   "publishConfig": {

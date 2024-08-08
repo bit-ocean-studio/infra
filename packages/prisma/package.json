@@ -52,8 +52,8 @@
   "devDependencies": {
     "@nestjs/common": "^10.3.10",
     "@nestjs/core": "^10.3.10",
-    "@prisma/client": "^5.17.0",
-    "prisma": "^5.17.0",
+    "@prisma/client": "^5.18.0",
+    "prisma": "^5.18.0",
     "reflect-metadata": "^0.2.2"
   },
   "prisma": {

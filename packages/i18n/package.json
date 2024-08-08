@@ -41,14 +41,14 @@
   },
   "peerDependencies": {
     "i18next": "^23.12.2",
-    "react-i18next": "^15.0.0"
+    "react-i18next": "^15.0.1"
   },
   "dependencies": {
     "@bit-ocean/utils": "workspace:^"
   },
   "devDependencies": {
     "i18next": "^23.12.2",
-    "react-i18next": "^15.0.0"
+    "react-i18next": "^15.0.1"
   },
   "publishConfig": {
     "access": "public"

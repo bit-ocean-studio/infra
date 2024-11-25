@@ -50,6 +50,7 @@ export const antdBuiltInAPI = [
   'Skeleton',
   'Slider',
   'Space',
+  'Splitter',
   'Spin',
   'Statistic',
   'Steps',

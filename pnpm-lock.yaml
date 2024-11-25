@@ -100,7 +100,7 @@ importers:
         version: 5.4.0(@types/node@22.1.0)(sass@1.77.8)
       vitest:
         specifier: ^2.0.5
-        version: 2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5)(@vitest/ui@2.0.5)(sass@1.77.8)
+        version: 2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5(typescript@5.5.4)(vitest@2.0.5))(@vitest/ui@2.0.5(vitest@2.0.5))(sass@1.77.8)
 
   apps/docs:
     dependencies:
@@ -146,7 +146,7 @@ importers:
         version: 8.2.8(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))
       '@storybook/addon-interactions':
         specifier: ^8.2.8
-        version: 8.2.8(@jest/globals@29.7.0)(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5)(@vitest/ui@2.0.5)(sass@1.77.8))
+        version: 8.2.8(@jest/globals@29.7.0)(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5(typescript@5.5.4)(vitest@2.0.5))(@vitest/ui@2.0.5(vitest@2.0.5))(sass@1.77.8))
       '@storybook/addon-links':
         specifier: ^8.2.8
         version: 8.2.8(react@18.3.1)(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))
@@ -173,7 +173,7 @@ importers:
         version: 8.2.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(rollup@4.19.1)(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))(typescript@5.5.4)(vite@5.4.0(@types/node@22.1.0)(sass@1.77.8))
       '@storybook/test':
         specifier: ^8.2.8
-        version: 8.2.8(@jest/globals@29.7.0)(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5)(@vitest/ui@2.0.5)(sass@1.77.8))
+        version: 8.2.8(@jest/globals@29.7.0)(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5(typescript@5.5.4)(vitest@2.0.5))(@vitest/ui@2.0.5(vitest@2.0.5))(sass@1.77.8))
       '@storybook/theming':
         specifier: ^8.2.8
         version: 8.2.8(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))
@@ -424,8 +424,8 @@ importers:
         specifier: ^4.0.0
         version: 4.0.0
       cross-spawn:
-        specifier: ^7.0.3
-        version: 7.0.3
+        specifier: ^7.0.5
+        version: 7.0.5
       handlebars:
         specifier: 4.7.8
         version: 4.7.8
@@ -4717,6 +4717,10 @@ packages:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
 
+  cross-spawn@7.0.5:
+    resolution: {integrity: sha512-ZVJrKKYunU38/76t0RMOulHOnUcbU9GbpWKAOZ0mhjr7CX6FVrH+4FrAapSOekrgFQ3f/8gwMEuIft0aKq6Hug==}
+    engines: {node: '>= 8'}
+
   crypto-random-string@4.0.0:
     resolution: {integrity: sha512-x8dy3RnvYdlUcPOjkEHqozhiwzKNSq7GcPuXFbnyMOCHxX8V3OgIg/pYuabl2sbUPfIJaeAQB7PMOK8DFIdoRA==}
     engines: {node: '>=12'}
@@ -5355,6 +5359,7 @@ packages:
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@10.1.0:
@@ -12634,11 +12639,11 @@ snapshots:
       '@storybook/global': 5.0.0
       storybook: 8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2))
 
-  '@storybook/addon-interactions@8.2.8(@jest/globals@29.7.0)(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5)(@vitest/ui@2.0.5)(sass@1.77.8))':
+  '@storybook/addon-interactions@8.2.8(@jest/globals@29.7.0)(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5(typescript@5.5.4)(vitest@2.0.5))(@vitest/ui@2.0.5(vitest@2.0.5))(sass@1.77.8))':
     dependencies:
       '@storybook/global': 5.0.0
       '@storybook/instrumenter': 8.2.8(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))
-      '@storybook/test': 8.2.8(@jest/globals@29.7.0)(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5)(@vitest/ui@2.0.5)(sass@1.77.8))
+      '@storybook/test': 8.2.8(@jest/globals@29.7.0)(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5(typescript@5.5.4)(vitest@2.0.5))(@vitest/ui@2.0.5(vitest@2.0.5))(sass@1.77.8))
       polished: 4.3.1
       storybook: 8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2))
       ts-dedent: 2.2.0
@@ -12738,7 +12743,7 @@ snapshots:
       '@storybook/core': 8.2.8
       '@storybook/csf': 0.1.11
       '@types/cross-spawn': 6.0.6
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.5
       globby: 14.0.2
       jscodeshift: 0.15.2(@babel/preset-env@7.25.0(@babel/core@7.25.2))
       lodash: 4.17.21
@@ -12872,12 +12877,12 @@ snapshots:
     optionalDependencies:
       typescript: 5.5.4
 
-  '@storybook/test@8.2.8(@jest/globals@29.7.0)(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5)(@vitest/ui@2.0.5)(sass@1.77.8))':
+  '@storybook/test@8.2.8(@jest/globals@29.7.0)(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5(typescript@5.5.4)(vitest@2.0.5))(@vitest/ui@2.0.5(vitest@2.0.5))(sass@1.77.8))':
     dependencies:
       '@storybook/csf': 0.1.11
       '@storybook/instrumenter': 8.2.8(storybook@8.2.8(@babel/preset-env@7.25.0(@babel/core@7.25.2)))
       '@testing-library/dom': 10.1.0
-      '@testing-library/jest-dom': 6.4.5(@jest/globals@29.7.0)(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5)(@vitest/ui@2.0.5)(sass@1.77.8))
+      '@testing-library/jest-dom': 6.4.5(@jest/globals@29.7.0)(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5(typescript@5.5.4)(vitest@2.0.5))(@vitest/ui@2.0.5(vitest@2.0.5))(sass@1.77.8))
       '@testing-library/user-event': 14.5.2(@testing-library/dom@10.1.0)
       '@vitest/expect': 1.6.0
       '@vitest/spy': 1.6.0
@@ -13067,7 +13072,7 @@ snapshots:
       lz-string: 1.5.0
       pretty-format: 27.5.1
 
-  '@testing-library/jest-dom@6.4.5(@jest/globals@29.7.0)(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5)(@vitest/ui@2.0.5)(sass@1.77.8))':
+  '@testing-library/jest-dom@6.4.5(@jest/globals@29.7.0)(vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5(typescript@5.5.4)(vitest@2.0.5))(@vitest/ui@2.0.5(vitest@2.0.5))(sass@1.77.8))':
     dependencies:
       '@adobe/css-tools': 4.4.0
       '@babel/runtime': 7.25.0
@@ -13079,7 +13084,7 @@ snapshots:
       redent: 3.0.0
     optionalDependencies:
       '@jest/globals': 29.7.0
-      vitest: 2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5)(@vitest/ui@2.0.5)(sass@1.77.8)
+      vitest: 2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5(typescript@5.5.4)(vitest@2.0.5))(@vitest/ui@2.0.5(vitest@2.0.5))(sass@1.77.8)
 
   '@testing-library/user-event@14.5.2(@testing-library/dom@10.1.0)':
     dependencies:
@@ -13583,7 +13588,7 @@ snapshots:
       magic-string: 0.30.11
       msw: 2.3.4(typescript@5.5.4)
       sirv: 2.0.4
-      vitest: 2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5)(@vitest/ui@2.0.5)(sass@1.77.8)
+      vitest: 2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5(typescript@5.5.4)(vitest@2.0.5))(@vitest/ui@2.0.5(vitest@2.0.5))(sass@1.77.8)
       ws: 8.18.0
     transitivePeerDependencies:
       - bufferutil
@@ -13635,7 +13640,7 @@ snapshots:
       pathe: 1.1.2
       sirv: 2.0.4
       tinyrainbow: 1.2.0
-      vitest: 2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5)(@vitest/ui@2.0.5)(sass@1.77.8)
+      vitest: 2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5(typescript@5.5.4)(vitest@2.0.5))(@vitest/ui@2.0.5(vitest@2.0.5))(sass@1.77.8)
 
   '@vitest/utils@1.6.0':
     dependencies:
@@ -14745,6 +14750,12 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
+  cross-spawn@7.0.5:
+    dependencies:
+      path-key: 3.1.1
+      shebang-command: 2.0.0
+      which: 2.0.2
+
   crypto-random-string@4.0.0:
     dependencies:
       type-fest: 1.4.0
@@ -15672,7 +15683,7 @@ snapshots:
       '@ungap/structured-clone': 1.2.0
       ajv: 6.12.6
       chalk: 4.1.2
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.5
       debug: 4.3.6
       doctrine: 3.0.0
       escape-string-regexp: 4.0.0
@@ -15767,7 +15778,7 @@ snapshots:
 
   execa@5.1.1:
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.5
       get-stream: 6.0.1
       human-signals: 2.1.0
       is-stream: 2.0.1
@@ -15779,7 +15790,7 @@ snapshots:
 
   execa@8.0.1:
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.5
       get-stream: 8.0.1
       human-signals: 5.0.0
       is-stream: 3.0.0
@@ -16018,7 +16029,7 @@ snapshots:
 
   foreground-child@3.2.1:
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.5
       signal-exit: 4.1.0
 
   form-data@4.0.0:
@@ -20407,7 +20418,7 @@ snapshots:
     optionalDependencies:
       vite: 5.4.0(@types/node@22.1.0)(sass@1.77.8)
 
-  vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5)(@vitest/ui@2.0.5)(sass@1.77.8):
+  vitest@2.0.5(@types/node@22.1.0)(@vitest/browser@2.0.5(typescript@5.5.4)(vitest@2.0.5))(@vitest/ui@2.0.5(vitest@2.0.5))(sass@1.77.8):
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@vitest/expect': 2.0.5

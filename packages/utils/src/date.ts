@@ -34,6 +34,19 @@ export class DateUtils {
   }
 
   /**
+   * 将时间转化为 dayjs 对象
+   * @param time 时间
+   * @returns dayjs 对象
+   * @example
+   * ```ts
+   * TimeUtils.convertToDayjs('2023-09-20 00:00:00')
+   * ```
+   */
+  static convertToDayjs(time?: dayjs.ConfigType) {
+    return dayjs(time).isValid() ? dayjs(time) : undefined
+  }
+
+  /**
    * 获取时间差
    * @param start 开始时间
    * @param end 结束时间

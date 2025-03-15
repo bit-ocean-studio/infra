@@ -2,3 +2,13 @@ packages:
   - apps/*
   - examples/**
   - packages/*
+onlyBuiltDependencies:
+  - '@nestjs/core'
+  - '@prisma/client'
+  - '@prisma/engines'
+  - '@swc/core'
+  - esbuild
+  - msw
+  - nx
+  - prisma
+  - sharp

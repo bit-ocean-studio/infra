@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/hooks",
-  "version": "0.0.50",
+  "version": "0.0.51",
   "description": "Universal hooks.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -40,7 +40,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "@tanstack/react-router": "^1.46.8"
+    "@tanstack/react-router": "^1.114.17"
   },
   "peerDependenciesMeta": {
     "@tanstack/react-router": {
@@ -48,7 +48,7 @@
     }
   },
   "devDependencies": {
-    "@tanstack/react-router": "^1.46.8"
+    "@tanstack/react-router": "^1.114.17"
   },
   "publishConfig": {
     "access": "public"

@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/theme",
-  "version": "0.0.50",
+  "version": "0.0.51",
   "description": "Universal theme configuration.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -40,7 +40,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "antd": "^5.20.0"
+    "antd": "^5.24.3"
   },
   "peerDependenciesMeta": {
     "antd": {
@@ -48,7 +48,7 @@
     }
   },
   "devDependencies": {
-    "antd": "^5.20.0"
+    "antd": "^5.24.3"
   },
   "publishConfig": {
     "access": "public"

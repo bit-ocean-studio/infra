@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/auto-import",
-  "version": "0.0.50",
+  "version": "0.0.51",
   "description": "Universal auto-import module.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -44,7 +44,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "unplugin-auto-import": "^0.18.2"
+    "unplugin-auto-import": "^19.1.1"
   },
   "peerDependenciesMeta": {
     "unplugin-auto-import": {
@@ -52,8 +52,8 @@
     }
   },
   "devDependencies": {
-    "unimport": "^3.10.0",
-    "unplugin-auto-import": "^0.18.2"
+    "unimport": "^4.1.2",
+    "unplugin-auto-import": "^19.1.1"
   },
   "publishConfig": {
     "access": "public"

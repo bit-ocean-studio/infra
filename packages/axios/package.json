@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/axios",
-  "version": "0.0.50",
+  "version": "0.0.51",
   "description": "Universal Axios instance.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -42,16 +42,16 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "axios": "^1.7.3"
+    "axios": "^1.8.3"
   },
   "dependencies": {
     "@bit-ocean/utils": "workspace:^"
   },
   "devDependencies": {
-    "@tanstack/react-router": "^1.46.8",
-    "antd": "^5.20.0",
-    "axios": "^1.7.3",
-    "i18next": "^23.12.2"
+    "@tanstack/react-router": "^1.114.17",
+    "antd": "^5.24.3",
+    "axios": "^1.8.3",
+    "i18next": "^24.2.3"
   },
   "publishConfig": {
     "access": "public"

@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/prettier-config",
-  "version": "0.0.50",
+  "version": "0.0.51",
   "description": "Universal Prettier configuration.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -42,11 +42,11 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "prettier": "^3.3.3"
+    "prettier": "^3.5.3"
   },
   "dependencies": {
     "prettier-plugin-astro": "^0.14.1",
-    "prettier-plugin-tailwindcss": "^0.6.5"
+    "prettier-plugin-tailwindcss": "^0.6.11"
   },
   "publishConfig": {
     "access": "public"

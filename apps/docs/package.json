@@ -22,10 +22,10 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "dependencies": {
-    "@astrojs/starlight": "^0.25.4",
-    "astro": "^4.13.2",
-    "sharp": "^0.33.4",
-    "@astrojs/check": "^0.9.2"
+    "@astrojs/starlight": "^0.32.2",
+    "astro": "^4.16.18",
+    "sharp": "^0.33.5",
+    "@astrojs/check": "^0.9.4"
   },
   "private": true,
   "license": "MIT"

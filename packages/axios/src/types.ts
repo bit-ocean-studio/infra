@@ -30,7 +30,7 @@ export interface InterceptorInitOptions {
   /**
    * Tanstack Router instance.
    */
-  router?: Router<any, any>
+  router?: Router<any, any, any>
   /**
    * i18n instance.
    */

@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/utils",
-  "version": "0.0.50",
+  "version": "0.0.51",
   "description": "Utility functions, types.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -39,7 +39,7 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "dayjs": "^1.11.12"
+    "dayjs": "^1.11.13"
   },
   "peerDependenciesMeta": {
     "dayjs": {
@@ -47,7 +47,7 @@
     }
   },
   "devDependencies": {
-    "dayjs": "^1.11.12"
+    "dayjs": "^1.11.13"
   },
   "publishConfig": {
     "access": "public"

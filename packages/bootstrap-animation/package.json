@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/bootstrap-animation",
-  "version": "0.0.50",
+  "version": "0.0.51",
   "description": "Universal bootstrap animation configuration.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -42,11 +42,11 @@
   },
   "dependencies": {
     "@bit-ocean/config": "workspace:^",
-    "figlet": "^1.7.0",
-    "gradient-string": "^2.0.2"
+    "figlet": "^1.8.0",
+    "gradient-string": "^3.0.0"
   },
   "devDependencies": {
-    "@types/figlet": "^1.5.8",
+    "@types/figlet": "^1.7.0",
     "@types/gradient-string": "^1.1.6"
   },
   "publishConfig": {

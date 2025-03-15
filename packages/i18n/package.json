@@ -1,6 +1,6 @@
 {
   "name": "@bit-ocean/i18n",
-  "version": "0.0.50",
+  "version": "0.0.51",
   "description": "Universal i18n instance.",
   "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
   "homepage": "https://github.com/bit-ocean-studio/infra#readme",
@@ -40,15 +40,15 @@
     "prettier:fix": "prettier --write --cache --ignore-unknown --ignore-path=../../.prettierignore ."
   },
   "peerDependencies": {
-    "i18next": "^23.12.2",
-    "react-i18next": "^15.0.1"
+    "i18next": "^24.2.3",
+    "react-i18next": "^15.4.1"
   },
   "dependencies": {
     "@bit-ocean/utils": "workspace:^"
   },
   "devDependencies": {
-    "i18next": "^23.12.2",
-    "react-i18next": "^15.0.1"
+    "i18next": "^24.2.3",
+    "react-i18next": "^15.4.1"
   },
   "publishConfig": {
     "access": "public"
